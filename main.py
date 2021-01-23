@@ -4,6 +4,7 @@ import pickle as pk
 
 import os
 import time
+import copy
 import torch
 import torch.nn as nn
 
@@ -37,10 +38,11 @@ if __name__ == '__main__':
 
     train_df, dev_df = split_df_by_pt(train_val_df, frac=0.1)
 
-    train_dataset = DrgTextDataset(args, train_df, RULE_PATH)
-    dev_dataset = DrgTextDataset(args, dev_df, RULE_PATH)
+    if not args.eval_model:
+        train_dataset = DrgTextDataset(args, train_df, RULE_PATH)
+        dev_dataset = DrgTextDataset(args, dev_df, RULE_PATH)
     test_dataset = DrgTextDataset(args, test_df, RULE_PATH)
-    args.Y = train_dataset.Y
+    args.Y = test_dataset.Y
 
     if not args.eval_model:
         model = pick_model(args, embedding)
@@ -55,18 +57,25 @@ if __name__ == '__main__':
         model_wts = train_with_early_stopping(model, train_dataset, dev_dataset, args.epochs, args.patience, args.target, args.batch_size, optimizer, score_func, small_base)
     else:
         print("load checkpoint from", args.eval_model)
+        eval_path = args.eval_model
         hyperparam_path = '%s/hyperparam.pk' % args.eval_model
         if os.path.exists(hyperparam_path):
             hyperparam = pd.read_pickle(hyperparam_path)
-            args = update_args(args, hyperparam)
-        model = pick_model(args, embedding)
+            args_new = update_args(copy.deepcopy(args), hyperparam)
+        model = pick_model(args_new, embedding)
         model_wts = torch.load('%s/checkpoint.bin' % args.eval_model)
+        if args_new.target == 'drg':
+            score_func = score_f1
+            small_base = True
+        else:
+            score_func = score_mae
+            small_base = False
 
     # eval 
     model.load_state_dict(model_wts)
     text_infs = {}
     for hour in [24, 48]:
-        print('Test Hour', str(hour), 'Evaluation Results')
+        print('\nTest Hour', str(hour), 'Evaluation Results')
         test_dataset.load_data(hour)
         te_score, te_inf = eval_test(model, test_dataset, args.target, score_func, RULE_PATH, True, args.batch_size)
         text_infs['inf%s' % hour] = te_inf

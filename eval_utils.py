@@ -72,7 +72,7 @@ def result2str(d):
     sp, p = d['spearman'], d['corr_p']
     cm,ov,ud = d['CMI_error'], d['overshot'], d['undershot']
 
-    title = "****" * 5
+    title = "****" * 5 + '\n'
     try:
         s1 = "{} cases, {} labels".format(ct, la)
         s2 = "MACRO-AUC     \tMICRO-AUC      \tMACRO-F1     \tMICRO-F1  "
@@ -82,7 +82,7 @@ def result2str(d):
         # s2 = "MACRO-AUC: {:.4f}  MICRO-AUC: {:.4f}  ".format(maa, mia)
         # s3 = "MACRO-F1 : {:.4f}  MICRO-F1 : {:.4f}  ".format(maf, mif)
         # s4 = "Acc10: {:.4f}  Acc5: {:.4f}  Acc: {:.4f}  \n".format(a10, a5, a)
-        title = title+'\n'.join([s1, s2, s3, s4. s5])
+        title = title+'\n'.join([s1, s2, s3, s4, s5])
     except:
         pass
     r1 = "MAE: {:.4f}  RMSE: {:.4f}  Corr: {:.4f}  \n".format(ma, rm, sp)

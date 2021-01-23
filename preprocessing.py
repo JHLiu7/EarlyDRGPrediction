@@ -221,3 +221,6 @@ def save2id(file, token2id, text_dir, output_dir, threshold_hour):
 
     with open(output_path, 'wb') as f:
         pk.dump(out_dict, f)
+
+if __name__ == '__main__':
+    main()
