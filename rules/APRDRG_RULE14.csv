@@ -1,0 +1,1257 @@
+APR-DRG,SEVERITY,DRG_CODE,MDC,DESCRIPTION,WEIGHT
+1,1,11,PRE,Liver Transplant,11.1331
+1,2,12,PRE,Liver Transplant,11.3479
+1,3,13,PRE,Liver Transplant,11.4504
+1,4,14,PRE,Liver Transplant,22.8338
+2,1,21,PRE,Heart &/or Lung Transplant,10.4706
+2,2,22,PRE,Heart &/or Lung Transplant,10.9585
+2,3,23,PRE,Heart &/or Lung Transplant,18.0726
+2,4,24,PRE,Heart &/or Lung Transplant,29.288
+3,1,31,PRE,Bone Marrow Transplant,8.8698
+3,2,32,PRE,Bone Marrow Transplant,10.1055
+3,3,33,PRE,Bone Marrow Transplant,13.6855
+3,4,34,PRE,Bone Marrow Transplant,27.7177
+4,1,41,PRE,Tracheostomy W Long Term Mechanical Ventilation W Extensive Procedure,7.6303
+4,2,42,PRE,Tracheostomy W Long Term Mechanical Ventilation W Extensive Procedure,7.6433
+4,3,43,PRE,Tracheostomy W Long Term Mechanical Ventilation W Extensive Procedure,10.8501
+4,4,44,PRE,Tracheostomy W Long Term Mechanical Ventilation W Extensive Procedure,18.5852
+5,1,51,PRE,Tracheostomy W Long Term Mechanical Ventilation W/O Extensive Procedure,6.0922
+5,2,52,PRE,Tracheostomy W Long Term Mechanical Ventilation W/O Extensive Procedure,6.2787
+5,3,53,PRE,Tracheostomy W Long Term Mechanical Ventilation W/O Extensive Procedure,9.3798
+5,4,54,PRE,Tracheostomy W Long Term Mechanical Ventilation W/O Extensive Procedure,13.5779
+6,1,61,PRE,Pancreas Transplant,8.2544
+6,2,62,PRE,Pancreas Transplant,8.2544
+6,3,63,PRE,Pancreas Transplant,8.5776
+6,4,64,PRE,Pancreas Transplant,9.5626
+20,1,201,01,Craniotomy for Trauma,1.8374
+20,2,202,01,Craniotomy for Trauma,2.2949
+20,3,203,01,Craniotomy for Trauma,3.7087
+20,4,204,01,Craniotomy for Trauma,6.693
+21,1,211,01,Craniotomy Except for Trauma,1.907
+21,2,212,01,Craniotomy Except for Trauma,2.6806
+21,3,213,01,Craniotomy Except for Trauma,4.3995
+21,4,214,01,Craniotomy Except for Trauma,7.7201
+22,1,221,01,Ventricular Shunt Procedures,1.1886
+22,2,222,01,Ventricular Shunt Procedures,1.8534
+22,3,223,01,Ventricular Shunt Procedures,4.3578
+22,4,224,01,Ventricular Shunt Procedures,7.2156
+23,1,231,01,Spinal Procedures,1.6141
+23,2,232,01,Spinal Procedures,2.1057
+23,3,233,01,Spinal Procedures,4.1249
+23,4,234,01,Spinal Procedures,8.5394
+24,1,241,01,Extracranial Vascular Procedures,1.2404
+24,2,242,01,Extracranial Vascular Procedures,1.8591
+24,3,243,01,Extracranial Vascular Procedures,3.8261
+24,4,244,01,Extracranial Vascular Procedures,6.9907
+26,1,261,01,Other Nervous System & Related Procedures,1.1097
+26,2,262,01,Other Nervous System & Related Procedures,1.6591
+26,3,263,01,Other Nervous System & Related Procedures,2.9864
+26,4,264,01,Other Nervous System & Related Procedures,6.5625
+40,1,401,01,Spinal Disorders & Injuries,0.7999
+40,2,402,01,Spinal Disorders & Injuries,1.0005
+40,3,403,01,Spinal Disorders & Injuries,1.6207
+40,4,404,01,Spinal Disorders & Injuries,1.9585
+41,1,411,01,Nervous System Malignancy,0.7421
+41,2,412,01,Nervous System Malignancy,0.8856
+41,3,413,01,Nervous System Malignancy,1.5794
+41,4,414,01,Nervous System Malignancy,3.011
+42,1,421,01,Degenerative Nervous System Disorders Exc Mult Sclerosis,0.6079
+42,2,422,01,Degenerative Nervous System Disorders Exc Mult Sclerosis,0.8472
+42,3,423,01,Degenerative Nervous System Disorders Exc Mult Sclerosis,1.2275
+42,4,424,01,Degenerative Nervous System Disorders Exc Mult Sclerosis,3.5168
+43,1,431,01,Multiple Sclerosis & Other Demyelinating Diseases,0.6747
+43,2,432,01,Multiple Sclerosis & Other Demyelinating Diseases,0.9223
+43,3,433,01,Multiple Sclerosis & Other Demyelinating Diseases,1.6474
+43,4,434,01,Multiple Sclerosis & Other Demyelinating Diseases,5.0661
+44,1,441,01,Intracranial Hemorrhage,0.9777
+44,2,442,01,Intracranial Hemorrhage,1.3334
+44,3,443,01,Intracranial Hemorrhage,1.9022
+44,4,444,01,Intracranial Hemorrhage,3.0091
+45,1,451,01,CVA & Precerebral Occulusion w/ Infarct,0.7497
+45,2,452,01,CVA & Precerebral Occulusion w/ Infarct,1.0302
+45,3,453,01,CVA & Precerebral Occulusion w/ Infarct,1.6582
+45,4,454,01,CVA & Precerebral Occulusion w/ Infarct,3.3906
+46,1,461,01,Nonspecific CVA & Precerebral Occlusion w/o Infarct,0.6748
+46,2,462,01,Nonspecific CVA & Precerebral Occlusion w/o Infarct,0.8572
+46,3,463,01,Nonspecific CVA & Precerebral Occlusion w/o Infarct,1.0921
+46,4,464,01,Nonspecific CVA & Precerebral Occlusion w/o Infarct,1.1446
+47,1,471,01,Transient Ischemia,0.4709
+47,2,472,01,Transient Ischemia,0.5892
+47,3,473,01,Transient Ischemia,0.8901
+47,4,474,01,Transient Ischemia,0.9162
+48,1,481,01,"Peripheral, Cranial & Autonomic Nerve Disorders",0.4956
+48,2,482,01,"Peripheral, Cranial & Autonomic Nerve Disorders",0.7001
+48,3,483,01,"Peripheral, Cranial & Autonomic Nerve Disorders",1.116
+48,4,484,01,"Peripheral, Cranial & Autonomic Nerve Disorders",2.6003
+49,1,491,01,Bacterial & Tuberculous Infections of Nervous System,1.241
+49,2,492,01,Bacterial & Tuberculous Infections of Nervous System,2.328
+49,3,493,01,Bacterial & Tuberculous Infections of Nervous System,3.1788
+49,4,494,01,Bacterial & Tuberculous Infections of Nervous System,4.9898
+50,1,501,01,Non-bacterial Infections of Nervous System Exc Viral Meningitis,0.7582
+50,2,502,01,Non-bacterial Infections of Nervous System Exc Viral Meningitis,1.179
+50,3,503,01,Non-bacterial Infections of Nervous System Exc Viral Meningitis,2.0149
+50,4,504,01,Non-bacterial Infections of Nervous System Exc Viral Meningitis,5.2881
+51,1,511,01,Viral Meningitis,0.5828
+51,2,512,01,Viral Meningitis,0.7539
+51,3,513,01,Viral Meningitis,1.3625
+51,4,514,01,Viral Meningitis,1.5678
+52,1,521,01,Nontraumatic Stupor & Coma,0.4542
+52,2,522,01,Nontraumatic Stupor & Coma,0.6837
+52,3,523,01,Nontraumatic Stupor & Coma,1.0519
+52,4,524,01,Nontraumatic Stupor & Coma,2.1899
+53,1,531,01,Seizure,0.4229
+53,2,532,01,Seizure,0.5364
+53,3,533,01,Seizure,0.8925
+53,4,534,01,Seizure,2.8172
+54,1,541,01,Migraine & Other Headaches,0.4311
+54,2,542,01,Migraine & Other Headaches,0.5385
+54,3,543,01,Migraine & Other Headaches,0.7407
+54,4,544,01,Migraine & Other Headaches,0.7501
+55,1,551,01,Head Trauma w/ Coma > 1 Hr or Hemorrhage,0.5341
+55,2,552,01,Head Trauma w/ Coma > 1 Hr or Hemorrhage,0.8553
+55,3,553,01,Head Trauma w/ Coma > 1 Hr or Hemorrhage,1.5785
+55,4,554,01,Head Trauma w/ Coma > 1 Hr or Hemorrhage,3.6865
+56,1,561,01,"Brain Contusion/Laceration & Compliated Skull FX, COMA < 1 HR OR No Coma",0.4723
+56,2,562,01,"Brain Contusion/Laceration & Compliated Skull FX, COMA < 1 HR OR No Coma",0.7752
+56,3,563,01,"Brain Contusion/Laceration & Compliated Skull FX, COMA < 1 HR OR No Coma",1.4443
+56,4,564,01,"Brain Contusion/Laceration & Compliated Skull FX, COMA < 1 HR OR No Coma",4.6172
+57,1,571,01,"Concussion, Closed Skull FX Nos, Uncomplicated Intracranial Injury, Coma <1 Hr or No Com",0.3461
+57,2,572,01,"Concussion, Closed Skull FX Nos, Uncomplicated Intracranial Injury, Coma <1 Hr or No Com",0.5136
+57,3,573,01,"Concussion, Closed Skull FX Nos, Uncomplicated Intracranial Injury, Coma <1 Hr or No Com",1.1133
+57,4,574,01,"Concussion, Closed Skull FX Nos, Uncomplicated Intracranial Injury, Coma <1 Hr or No Com",2.7368
+58,1,581,01,Other Disorders of Nervous System,0.5175
+58,2,582,01,Other Disorders of Nervous System,0.7552
+58,3,583,01,Other Disorders of Nervous System,1.2499
+58,4,584,01,Other Disorders of Nervous System,3.0533
+70,1,701,02,Orbital Procedures,0.7933
+70,2,702,02,Orbital Procedures,1.1673
+70,3,703,02,Orbital Procedures,1.787
+70,4,704,02,Orbital Procedures,1.9598
+73,1,731,02,Eye Procedures Except Orbit,0.6792
+73,2,732,02,Eye Procedures Except Orbit,0.9082
+73,3,733,02,Eye Procedures Except Orbit,1.5837
+73,4,734,02,Eye Procedures Except Orbit,2.6356
+80,1,801,02,Acute Major Eye Infections,0.5027
+80,2,802,02,Acute Major Eye Infections,0.6649
+80,3,803,02,Acute Major Eye Infections,1.0304
+80,4,804,02,Acute Major Eye Infections,1.2146
+82,1,821,02,Eye Disorders Except Major Infections,0.4707
+82,2,822,02,Eye Disorders Except Major Infections,0.5434
+82,3,823,02,Eye Disorders Except Major Infections,0.9588
+82,4,824,02,Eye Disorders Except Major Infections,1.0814
+89,1,891,03,Major Cranial/Facial Bone Procedures,1.3021
+89,2,892,03,Major Cranial/Facial Bone Procedures,2.0048
+89,3,893,03,Major Cranial/Facial Bone Procedures,3.2306
+89,4,894,03,Major Cranial/Facial Bone Procedures,6.0746
+90,1,901,03,Major Larynx & Trachea Procedures,0.6117
+90,2,902,03,Major Larynx & Trachea Procedures,2.2403
+90,3,903,03,Major Larynx & Trachea Procedures,4.254
+90,4,904,03,Major Larynx & Trachea Procedures,5.2789
+91,1,911,03,Other Major Head & Neck Procedures,1.336
+91,2,912,03,Other Major Head & Neck Procedures,3.0967
+91,3,913,03,Other Major Head & Neck Procedures,4.3627
+91,4,914,03,Other Major Head & Neck Procedures,4.7947
+92,1,921,03,Facial Bone Procedures Except Major Cranial/Facial Bone Procedures,1.0641
+92,2,922,03,Facial Bone Procedures Except Major Cranial/Facial Bone Procedures,1.2744
+92,3,923,03,Facial Bone Procedures Except Major Cranial/Facial Bone Procedures,2.004
+92,4,924,03,Facial Bone Procedures Except Major Cranial/Facial Bone Procedures,2.2114
+93,1,931,03,Sinus & Mastoid Procedures,0.7806
+93,2,932,03,Sinus & Mastoid Procedures,1.1402
+93,3,933,03,Sinus & Mastoid Procedures,2.2444
+93,4,934,03,Sinus & Mastoid Procedures,2.3167
+95,1,951,03,Cleft Lip & Palate Repair,0.667
+95,2,952,03,Cleft Lip & Palate Repair,0.8195
+95,3,953,03,Cleft Lip & Palate Repair,1.2739
+95,4,954,03,Cleft Lip & Palate Repair,1.537
+97,1,971,03,Tonsill & Adenoid Procedures,0.4454
+97,2,972,03,Tonsill & Adenoid Procedures,0.6614
+97,3,973,03,Tonsill & Adenoid Procedures,1.5352
+97,4,974,03,Tonsill & Adenoid Procedures,1.8566
+98,1,981,03,"Other Ear, Nose, Mouth & Throat Procedures",0.6653
+98,2,982,03,"Other Ear, Nose, Mouth & Throat Procedures",0.9565
+98,3,983,03,"Other Ear, Nose, Mouth & Throat Procedures",2.008
+98,4,984,03,"Other Ear, Nose, Mouth & Throat Procedures",5.2916
+110,1,1101,03,"Ear, Nose, Mouth Throat, Cranial/Facial Malignancies",0.6813
+110,2,1102,03,"Ear, Nose, Mouth Throat, Cranial/Facial Malignancies",0.9882
+110,3,1103,03,"Ear, Nose, Mouth Throat, Cranial/Facial Malignancies",1.435
+110,4,1104,03,"Ear, Nose, Mouth Throat, Cranial/Facial Malignancies",3.3828
+111,1,1111,03,Vertigo & Other Labyrinth Disorders,0.3987
+111,2,1112,03,Vertigo & Other Labyrinth Disorders,0.5002
+111,3,1113,03,Vertigo & Other Labyrinth Disorders,0.7293
+111,4,1114,03,Vertigo & Other Labyrinth Disorders,0.7347
+113,1,1131,03,Infections Of The Upper Respiratory Tract,0.3538
+113,2,1132,03,Infections Of The Upper Respiratory Tract,0.4576
+113,3,1133,03,Infections Of The Upper Respiratory Tract,0.7336
+113,4,1134,03,Infections Of The Upper Respiratory Tract,1.9816
+114,1,1141,03,Dental & Oral Diseases & Injuries,0.4485
+114,2,1142,03,Dental & Oral Diseases & Injuries,0.5785
+114,3,1143,03,Dental & Oral Diseases & Injuries,1.1058
+114,4,1144,03,Dental & Oral Diseases & Injuries,3.3782
+115,1,1151,03,"Other Ear, Nose, Mouth,Throat & Cranial/Facial Diagnoses",0.4071
+115,2,1152,03,"Other Ear, Nose, Mouth,Throat & Cranial/Facial Diagnoses",0.555
+115,3,1153,03,"Other Ear, Nose, Mouth,Throat & Cranial/Facial Diagnoses",1.0201
+115,4,1154,03,"Other Ear, Nose, Mouth,Throat & Cranial/Facial Diagnoses",2.5905
+120,1,1201,04,Major Respiratory & Chest Procedures,1.6492
+120,2,1202,04,Major Respiratory & Chest Procedures,2.147
+120,3,1203,04,Major Respiratory & Chest Procedures,3.4389
+120,4,1204,04,Major Respiratory & Chest Procedures,6.5786
+121,1,1211,04,Other Respiratory & Chest Procedures,1.1883
+121,2,1212,04,Other Respiratory & Chest Procedures,1.6252
+121,3,1213,04,Other Respiratory & Chest Procedures,3.0587
+121,4,1214,04,Other Respiratory & Chest Procedures,6.2527
+130,1,1301,04,Respiratory System Diagnosis w/ Ventilator Support 96+ Hours,2.9856
+130,2,1302,04,Respiratory System Diagnosis w/ Ventilator Support 96+ Hours,3.231
+130,3,1303,04,Respiratory System Diagnosis w/ Ventilator Support 96+ Hours,3.9604
+130,4,1304,04,Respiratory System Diagnosis w/ Ventilator Support 96+ Hours,6.0017
+131,1,1311,04,Cystic Fibrosis - Pulmonary Disease,1.3418
+131,2,1312,04,Cystic Fibrosis - Pulmonary Disease,1.5975
+131,3,1313,04,Cystic Fibrosis - Pulmonary Disease,1.9794
+131,4,1314,04,Cystic Fibrosis - Pulmonary Disease,3.0173
+132,1,1321,04,BPD & Oth Chronic Respiratory Dis Arising In Perinatal Period,0.6417
+132,2,1322,04,BPD & Oth Chronic Respiratory Dis Arising In Perinatal Period,0.817
+132,3,1323,04,BPD & Oth Chronic Respiratory Dis Arising In Perinatal Period,1.2948
+132,4,1324,04,BPD & Oth Chronic Respiratory Dis Arising In Perinatal Period,2.7252
+133,1,1331,04,Pulmonary Edema & Respiratory Failure,0.6413
+133,2,1332,04,Pulmonary Edema & Respiratory Failure,0.925
+133,3,1333,04,Pulmonary Edema & Respiratory Failure,1.4115
+133,4,1334,04,Pulmonary Edema & Respiratory Failure,1.9978
+134,1,1341,04,Pulmonary Embolism,0.7738
+134,2,1342,04,Pulmonary Embolism,1.0184
+134,3,1343,04,Pulmonary Embolism,1.5535
+134,4,1344,04,Pulmonary Embolism,2.7718
+135,1,1351,04,Major Chest & Respiratory Trauma,0.5257
+135,2,1352,04,Major Chest & Respiratory Trauma,0.7316
+135,3,1353,04,Major Chest & Respiratory Trauma,1.2398
+135,4,1354,04,Major Chest & Respiratory Trauma,2.2963
+136,1,1361,04,Respiratory Malignancy,0.6718
+136,2,1362,04,Respiratory Malignancy,0.8576
+136,3,1363,04,Respiratory Malignancy,1.5717
+136,4,1364,04,Respiratory Malignancy,2.5581
+137,1,1371,04,Major Respiratory Infections & Inflammations,0.8622
+137,2,1372,04,Major Respiratory Infections & Inflammations,1.0487
+137,3,1373,04,Major Respiratory Infections & Inflammations,1.5526
+137,4,1374,04,Major Respiratory Infections & Inflammations,2.5011
+138,1,1381,04,Bronchiolitis & RSV Pneumonia,0.4584
+138,2,1382,04,Bronchiolitis & RSV Pneumonia,0.6098
+138,3,1383,04,Bronchiolitis & RSV Pneumonia,1.2309
+138,4,1384,04,Bronchiolitis & RSV Pneumonia,2.4828
+139,1,1391,04,Other Pneumonia,0.4827
+139,2,1392,04,Other Pneumonia,0.6753
+139,3,1393,04,Other Pneumonia,1.1509
+139,4,1394,04,Other Pneumonia,2.1721
+140,1,1401,04,Chronic Obstructive Pulmonary Disease,0.5507
+140,2,1402,04,Chronic Obstructive Pulmonary Disease,0.7094
+140,3,1403,04,Chronic Obstructive Pulmonary Disease,1.045
+140,4,1404,04,Chronic Obstructive Pulmonary Disease,2.119
+141,1,1411,04,Asthma,0.4172
+141,2,1412,04,Asthma,0.5585
+141,3,1413,04,Asthma,0.8321
+141,4,1414,04,Asthma,1.5258
+142,1,1421,04,Interstitial Lung Disease,0.6016
+142,2,1422,04,Interstitial Lung Disease,0.7989
+142,3,1423,04,Interstitial Lung Disease,1.3284
+142,4,1424,04,Interstitial Lung Disease,2.7614
+143,1,1431,04,"Other Respiratory Diagnosis Except Signs, Symptoms & Minor Diagnoses",0.4889
+143,2,1432,04,"Other Respiratory Diagnosis Except Signs, Symptoms & Minor Diagnoses",0.7739
+143,3,1433,04,"Other Respiratory Diagnosis Except Signs, Symptoms & Minor Diagnoses",1.251
+143,4,1434,04,"Other Respiratory Diagnosis Except Signs, Symptoms & Minor Diagnoses",2.0278
+144,1,1441,04,"Respiratory System Signs, Symptoms & Other Diagnoses",0.4097
+144,2,1442,04,"Respiratory System Signs, Symptoms & Other Diagnoses",0.5378
+144,3,1443,04,"Respiratory System Signs, Symptoms & Other Diagnoses",0.8224
+144,4,1444,04,"Respiratory System Signs, Symptoms & Other Diagnoses",1.47
+160,1,1601,05,Major Cardiothoracic Repair of Heart Anomaly,2.6853
+160,2,1602,05,Major Cardiothoracic Repair of Heart Anomaly,3.2379
+160,3,1603,05,Major Cardiothoracic Repair of Heart Anomaly,4.1715
+160,4,1604,05,Major Cardiothoracic Repair of Heart Anomaly,10.7035
+161,1,1611,05,Cardiac Defibrillator & Heart Assist Anomaly,4.3663
+161,2,1612,05,Cardiac Defibrillator & Heart Assist Anomaly,6.5092
+161,3,1613,05,Cardiac Defibrillator & Heart Assist Anomaly,11.0336
+161,4,1614,05,Cardiac Defibrillator & Heart Assist Anomaly,23.0774
+162,1,1621,05,Cardiac Valve Procedures w/ Cardiac Catheterization,3.5573
+162,2,1622,05,Cardiac Valve Procedures w/ Cardiac Catheterization,4.1759
+162,3,1623,05,Cardiac Valve Procedures w/ Cardiac Catheterization,5.6769
+162,4,1624,05,Cardiac Valve Procedures w/ Cardiac Catheterization,11.111
+163,1,1631,05,Cardiac Valve Procedures w/o Cardiac Catheterization,2.9023
+163,2,1632,05,Cardiac Valve Procedures w/o Cardiac Catheterization,3.6635
+163,3,1633,05,Cardiac Valve Procedures w/o Cardiac Catheterization,4.8394
+163,4,1634,05,Cardiac Valve Procedures w/o Cardiac Catheterization,10.3269
+165,1,1651,05,Coronary Bypass w/ Cardiac Cath Or Percutaneous Cardiac Procedure,3.3668
+165,2,1652,05,Coronary Bypass w/ Cardiac Cath Or Percutaneous Cardiac Procedure,3.8357
+165,3,1653,05,Coronary Bypass w/ Cardiac Cath Or Percutaneous Cardiac Procedure,4.8055
+165,4,1654,05,Coronary Bypass w/ Cardiac Cath Or Percutaneous Cardiac Procedure,8.566
+166,1,1661,05,Coronary Bypass w/o Cardiac Cath Or Percutaneous Cardiac Procedure,2.6534
+166,2,1662,05,Coronary Bypass w/o Cardiac Cath Or Percutaneous Cardiac Procedure,3.035
+166,3,1663,05,Coronary Bypass w/o Cardiac Cath Or Percutaneous Cardiac Procedure,4.2344
+166,4,1664,05,Coronary Bypass w/o Cardiac Cath Or Percutaneous Cardiac Procedure,9.0263
+167,1,1671,05,Other Cardiothoracic Procedures,2.0776
+167,2,1672,05,Other Cardiothoracic Procedures,2.7417
+167,3,1673,05,Other Cardiothoracic Procedures,3.4309
+167,4,1674,05,Other Cardiothoracic Procedures,6.8094
+169,1,1691,05,Major Thoracic & Abdominal Vascular Procedures,1.7726
+169,2,1692,05,Major Thoracic & Abdominal Vascular Procedures,2.4326
+169,3,1693,05,Major Thoracic & Abdominal Vascular Procedures,3.997
+169,4,1694,05,Major Thoracic & Abdominal Vascular Procedures,7.4029
+170,1,1701,05,"Permanent Cardiac Pacemaker Implant w/ AMI, Heart Failure or Shock",3.0815
+170,2,1702,05,"Permanent Cardiac Pacemaker Implant w/ AMI, Heart Failure or Shock",3.0815
+170,3,1703,05,"Permanent Cardiac Pacemaker Implant w/ AMI, Heart Failure or Shock",3.6414
+170,4,1704,05,"Permanent Cardiac Pacemaker Implant w/ AMI, Heart Failure or Shock",6.2388
+171,1,1711,05,"Perm Cardiac Pacemaker Implant w/o AMI, Heart Failure or Shock",1.8358
+171,2,1712,05,"Perm Cardiac Pacemaker Implant w/o AMI, Heart Failure or Shock",2.2414
+171,3,1713,05,"Perm Cardiac Pacemaker Implant w/o AMI, Heart Failure or Shock",3.2318
+171,4,1714,05,"Perm Cardiac Pacemaker Implant w/o AMI, Heart Failure or Shock",5.8722
+173,1,1731,05,Other Vascular Procedures,1.522
+173,2,1732,05,Other Vascular Procedures,2.0709
+173,3,1733,05,Other Vascular Procedures,3.2849
+173,4,1734,05,Other Vascular Procedures,7.2181
+174,1,1741,05,Percutaneous Cardiovascular Procedures w/ AMI,1.9515
+174,2,1742,05,Percutaneous Cardiovascular Procedures w/ AMI,2.1708
+174,3,1743,05,Percutaneous Cardiovascular Procedures w/ AMI,2.831
+174,4,1744,05,Percutaneous Cardiovascular Procedures w/ AMI,4.0052
+175,1,1751,05,Percutaneous Cardiovascular Procedures w/o AMI,1.4546
+175,2,1752,05,Percutaneous Cardiovascular Procedures w/o AMI,1.6351
+175,3,1753,05,Percutaneous Cardiovascular Procedures w/o AMI,2.4993
+175,4,1754,05,Percutaneous Cardiovascular Procedures w/o AMI,3.8994
+176,1,1761,05,Cardiac Pacemaker & Defibrillator Device Replacement,1.3564
+176,2,1762,05,Cardiac Pacemaker & Defibrillator Device Replacement,2.5931
+176,3,1763,05,Cardiac Pacemaker & Defibrillator Device Replacement,2.8956
+176,4,1764,05,Cardiac Pacemaker & Defibrillator Device Replacement,3.0168
+177,1,1771,05,Cardiac Pacemaker & Defibrillator Revision Except Device Replacement,1.3896
+177,2,1772,05,Cardiac Pacemaker & Defibrillator Revision Except Device Replacement,1.8187
+177,3,1773,05,Cardiac Pacemaker & Defibrillator Revision Except Device Replacement,2.7615
+177,4,1774,05,Cardiac Pacemaker & Defibrillator Revision Except Device Replacement,7.1429
+180,1,1801,05,Other Circulatory System Procedures,1.1671
+180,2,1802,05,Other Circulatory System Procedures,1.6872
+180,3,1803,05,Other Circulatory System Procedures,2.8083
+180,4,1804,05,Other Circulatory System Procedures,5.3027
+190,1,1901,05,Acute Myocardial Infarction,0.7778
+190,2,1902,05,Acute Myocardial Infarction,1.0235
+190,3,1903,05,Acute Myocardial Infarction,1.5163
+190,4,1904,05,Acute Myocardial Infarction,2.8087
+191,1,1911,05,Cardiac Catheterization w/ Circ Disord Exc Ischemic Heart Disease,0.9026
+191,2,1912,05,Cardiac Catheterization w/ Circ Disord Exc Ischemic Heart Disease,1.1469
+191,3,1913,05,Cardiac Catheterization w/ Circ Disord Exc Ischemic Heart Disease,1.6998
+191,4,1914,05,Cardiac Catheterization w/ Circ Disord Exc Ischemic Heart Disease,5.0402
+192,1,1921,05,Cardiac Catheterization for Ischemic Heart Disease,0.6933
+192,2,1922,05,Cardiac Catheterization for Ischemic Heart Disease,0.8686
+192,3,1923,05,Cardiac Catheterization for Ischemic Heart Disease,1.2623
+192,4,1924,05,Cardiac Catheterization for Ischemic Heart Disease,3.5971
+193,1,1931,05,Acute & Subacute Endocarditis,0.9656
+193,2,1932,05,Acute & Subacute Endocarditis,1.3826
+193,3,1933,05,Acute & Subacute Endocarditis,2.3809
+193,4,1934,05,Acute & Subacute Endocarditis,4.4144
+194,1,1941,05,Heart Failure,0.5504
+194,2,1942,05,Heart Failure,0.7642
+194,3,1943,05,Heart Failure,1.2975
+194,4,1944,05,Heart Failure,2.9085
+196,1,1961,05,Cardiac Arrest,0.354
+196,2,1962,05,Cardiac Arrest,0.5625
+196,3,1963,05,Cardiac Arrest,0.7415
+196,4,1964,05,Cardiac Arrest,1.8738
+197,1,1971,05,Peripheral & Other Vascular Disorders,0.5693
+197,2,1972,05,Peripheral & Other Vascular Disorders,0.7801
+197,3,1973,05,Peripheral & Other Vascular Disorders,1.2112
+197,4,1974,05,Peripheral & Other Vascular Disorders,2.6719
+198,1,1981,05,Angina Pectoris & Coronary Atherosclerosis,0.3902
+198,2,1982,05,Angina Pectoris & Coronary Atherosclerosis,0.5022
+198,3,1983,05,Angina Pectoris & Coronary Atherosclerosis,0.8473
+198,4,1984,05,Angina Pectoris & Coronary Atherosclerosis,0.9198
+199,1,1991,05,Hypertension,0.4068
+199,2,1992,05,Hypertension,0.5334
+199,3,1993,05,Hypertension,0.9038
+199,4,1994,05,Hypertension,2.6368
+200,1,2001,05,Cardiac Congenital & Valvular Disorders,0.4907
+200,2,2002,05,Cardiac Congenital & Valvular Disorders,0.6862
+200,3,2003,05,Cardiac Congenital & Valvular Disorders,1.0856
+200,4,2004,05,Cardiac Congenital & Valvular Disorders,3.2333
+201,1,2011,05,Cardiac Arrhythmia & Conduction Disorders,0.4231
+201,2,2012,05,Cardiac Arrhythmia & Conduction Disorders,0.6489
+201,3,2013,05,Cardiac Arrhythmia & Conduction Disorders,1.1395
+201,4,2014,05,Cardiac Arrhythmia & Conduction Disorders,2.6423
+203,1,2031,05,Chest Pain,0.3586
+203,2,2032,05,Chest Pain,0.451
+203,3,2033,05,Chest Pain,0.6973
+203,4,2034,05,Chest Pain,1.9656
+204,1,2041,05,Syncope & Collapse,0.4192
+204,2,2042,05,Syncope & Collapse,0.5524
+204,3,2043,05,Syncope & Collapse,0.8874
+204,4,2044,05,Syncope & Collapse,2.302
+205,1,2051,05,Cardiomyopathy,0.5091
+205,2,2052,05,Cardiomyopathy,0.6347
+205,3,2053,05,Cardiomyopathy,1.1214
+205,4,2054,05,Cardiomyopathy,1.4201
+206,1,2061,05,"Malfunction, Reaction & Comp of Cardiac or Vasc Device or Proc",0.4737
+206,2,2062,05,"Malfunction, Reaction & Comp of Cardiac or Vasc Device or Proc",0.7087
+206,3,2063,05,"Malfunction, Reaction & Comp of Cardiac or Vasc Device or Proc",1.3032
+206,4,2064,05,"Malfunction, Reaction & Comp of Cardiac or Vasc Device or Proc",3.1194
+207,1,2071,05,Other Circulatory System Diagnoses,0.474
+207,2,2072,05,Other Circulatory System Diagnoses,0.7053
+207,3,2073,05,Other Circulatory System Diagnoses,1.2043
+207,4,2074,05,Other Circulatory System Diagnoses,2.7343
+220,1,2201,06,"Major Stomach, Esophageal & Duodenal Procedures",1.2027
+220,2,2202,06,"Major Stomach, Esophageal & Duodenal Procedures",1.9353
+220,3,2203,06,"Major Stomach, Esophageal & Duodenal Procedures",3.4738
+220,4,2204,06,"Major Stomach, Esophageal & Duodenal Procedures",7.5539
+221,1,2211,06,Major Small & Large Bowel Procedures,1.4256
+221,2,2212,06,Major Small & Large Bowel Procedures,1.8654
+221,3,2213,06,Major Small & Large Bowel Procedures,3.2113
+221,4,2214,06,Major Small & Large Bowel Procedures,6.5399
+222,1,2221,06,"Minor Stomach, Esophageal & Duodenal Procedures",0.8218
+222,2,2222,06,"Minor Stomach, Esophageal & Duodenal Procedures",1.1072
+222,3,2223,06,"Minor Stomach, Esophageal & Duodenal Procedures",2.427
+222,4,2224,06,"Minor Stomach, Esophageal & Duodenal Procedures",5.0039
+223,1,2231,06,Minor Small & Large Bowel Procedures,1.1396
+223,2,2232,06,Minor Small & Large Bowel Procedures,1.5501
+223,3,2233,06,Minor Small & Large Bowel Procedures,2.6235
+223,4,2234,06,Minor Small & Large Bowel Procedures,5.8848
+224,1,2241,06,Peritoneal Adhesiolysis,1.2169
+224,2,2242,06,Peritoneal Adhesiolysis,1.6309
+224,3,2243,06,Peritoneal Adhesiolysis,2.7988
+224,4,2244,06,Peritoneal Adhesiolysis,4.3208
+225,1,2251,06,Appendectomy,0.6968
+225,2,2252,06,Appendectomy,1.0652
+225,3,2253,06,Appendectomy,1.9532
+225,4,2254,06,Appendectomy,4.4827
+226,1,2261,06,Anal Procedures,0.6133
+226,2,2262,06,Anal Procedures,0.8993
+226,3,2263,06,Anal Procedures,1.7286
+226,4,2264,06,Anal Procedures,2.1633
+227,1,2271,06,"Hernia Procedures Except Inguinal, Femoral & Umbilical",0.9865
+227,2,2272,06,"Hernia Procedures Except Inguinal, Femoral & Umbilical",1.3118
+227,3,2273,06,"Hernia Procedures Except Inguinal, Femoral & Umbilical",2.4433
+227,4,2274,06,"Hernia Procedures Except Inguinal, Femoral & Umbilical",5.4237
+228,1,2281,06,"Inguinal, Femoral & Umbilical Hernia Procedures",0.666
+228,2,2282,06,"Inguinal, Femoral & Umbilical Hernia Procedures",0.9551
+228,3,2283,06,"Inguinal, Femoral & Umbilical Hernia Procedures",1.7139
+228,4,2284,06,"Inguinal, Femoral & Umbilical Hernia Procedures",4.3273
+229,1,2291,06,Other Digestive System & Abdominal Procedures,1.0529
+229,2,2292,06,Other Digestive System & Abdominal Procedures,1.5211
+229,3,2293,06,Other Digestive System & Abdominal Procedures,2.7992
+229,4,2294,06,Other Digestive System & Abdominal Procedures,5.9198
+240,1,2401,06,Digestive Malignancy,0.7207
+240,2,2402,06,Digestive Malignancy,0.9217
+240,3,2403,06,Digestive Malignancy,1.5415
+240,4,2404,06,Digestive Malignancy,3.1782
+241,1,2411,06,Peptic Ulcer & Gastritis,0.4917
+241,2,2412,06,Peptic Ulcer & Gastritis,0.7212
+241,3,2413,06,Peptic Ulcer & Gastritis,1.253
+241,4,2414,06,Peptic Ulcer & Gastritis,3.2239
+242,1,2421,06,Major Esophageal Disorders,0.507
+242,2,2422,06,Major Esophageal Disorders,0.7406
+242,3,2423,06,Major Esophageal Disorders,1.2807
+242,4,2424,06,Major Esophageal Disorders,2.9594
+243,1,2431,06,Other Esophageal Disorders,0.4028
+243,2,2432,06,Other Esophageal Disorders,0.5773
+243,3,2433,06,Other Esophageal Disorders,1.0725
+243,4,2434,06,Other Esophageal Disorders,2.9327
+244,1,2441,06,Diverticulitis & Diverticulosis,0.497
+244,2,2442,06,Diverticulitis & Diverticulosis,0.6847
+244,3,2443,06,Diverticulitis & Diverticulosis,1.1782
+244,4,2444,06,Diverticulitis & Diverticulosis,2.894
+245,1,2451,06,Inflammatory Bowel Disease,0.6276
+245,2,2452,06,Inflammatory Bowel Disease,0.7526
+245,3,2453,06,Inflammatory Bowel Disease,1.1904
+245,4,2454,06,Inflammatory Bowel Disease,2.3249
+246,1,2461,06,Gastrointestinal Vascular Insufficiency,0.5952
+246,2,2462,06,Gastrointestinal Vascular Insufficiency,0.7698
+246,3,2463,06,Gastrointestinal Vascular Insufficiency,1.2855
+246,4,2464,06,Gastrointestinal Vascular Insufficiency,2.0154
+247,1,2471,06,Intestinal Obstruction,0.4766
+247,2,2472,06,Intestinal Obstruction,0.6513
+247,3,2473,06,Intestinal Obstruction,1.1346
+247,4,2474,06,Intestinal Obstruction,2.6551
+248,1,2481,06,Major Gastrointestinal & Peritoneal Infections,0.5786
+248,2,2482,06,Major Gastrointestinal & Peritoneal Infections,0.8566
+248,3,2483,06,Major Gastrointestinal & Peritoneal Infections,1.3521
+248,4,2484,06,Major Gastrointestinal & Peritoneal Infections,2.9084
+249,1,2491,06,"Non-Bacterial Gastroenteritis, Nausea & Vomiting",0.3817
+249,2,2492,06,"Non-Bacterial Gastroenteritis, Nausea & Vomiting",0.4967
+249,3,2493,06,"Non-Bacterial Gastroenteritis, Nausea & Vomiting",0.8199
+249,4,2494,06,"Non-Bacterial Gastroenteritis, Nausea & Vomiting",2.0801
+251,1,2511,06,Abdominal Pain,0.3904
+251,2,2512,06,Abdominal Pain,0.5385
+251,3,2513,06,Abdominal Pain,0.8431
+251,4,2514,06,Abdominal Pain,1.9274
+252,1,2521,06,"Malfunction, Reaction & Complication Of G.I. Device Or Procedure",0.5453
+252,2,2522,06,"Malfunction, Reaction & Complication Of G.I. Device Or Procedure",0.7202
+252,3,2523,06,"Malfunction, Reaction & Complication Of G.I. Device Or Procedure",1.2193
+252,4,2524,06,"Malfunction, Reaction & Complication Of G.I. Device Or Procedure",2.6395
+253,1,2531,06,Other & Unspecified Gastrointestinal Hemorrhage,0.5533
+253,2,2532,06,Other & Unspecified Gastrointestinal Hemorrhage,0.7866
+253,3,2533,06,Other & Unspecified Gastrointestinal Hemorrhage,1.2835
+253,4,2534,06,Other & Unspecified Gastrointestinal Hemorrhage,2.7534
+254,1,2541,06,Other Digestive System Diagnoses,0.454
+254,2,2542,06,Other Digestive System Diagnoses,0.6828
+254,3,2543,06,Other Digestive System Diagnoses,1.138
+254,4,2544,06,Other Digestive System Diagnoses,2.5277
+260,1,2601,07,"Major Pancreas, Liver & Shunt Procedures",1.4447
+260,2,2602,07,"Major Pancreas, Liver & Shunt Procedures",1.9373
+260,3,2603,07,"Major Pancreas, Liver & Shunt Procedures",3.308
+260,4,2604,07,"Major Pancreas, Liver & Shunt Procedures",7.7538
+261,1,2611,07,Major Biliary Tract Procedures,1.4045
+261,2,2612,07,Major Biliary Tract Procedures,1.9813
+261,3,2613,07,Major Biliary Tract Procedures,3.0641
+261,4,2614,07,Major Biliary Tract Procedures,5.6943
+262,1,2621,07,Cholecystectomy Except Laparoscopic,1.2785
+262,2,2622,07,Cholecystectomy Except Laparoscopic,1.6608
+262,3,2623,07,Cholecystectomy Except Laparoscopic,2.4801
+262,4,2624,07,Cholecystectomy Except Laparoscopic,4.9058
+263,1,2631,07,Laparoscopic Cholecystectomy,0.8534
+263,2,2632,07,Laparoscopic Cholecystectomy,1.155
+263,3,2633,07,Laparoscopic Cholecystectomy,1.6854
+263,4,2634,07,Laparoscopic Cholecystectomy,3.739
+264,1,2641,07,"Other Hepatobiliary, Pancreas & Abdominal Procedures",1.2016
+264,2,2642,07,"Other Hepatobiliary, Pancreas & Abdominal Procedures",1.6243
+264,3,2643,07,"Other Hepatobiliary, Pancreas & Abdominal Procedures",2.6732
+264,4,2644,07,"Other Hepatobiliary, Pancreas & Abdominal Procedures",7.2048
+279,1,2791,07,Hepatic Coma & Other Major Acute Liver Disorders,0.5308
+279,2,2792,07,Hepatic Coma & Other Major Acute Liver Disorders,0.7887
+279,3,2793,07,Hepatic Coma & Other Major Acute Liver Disorders,1.3535
+279,4,2794,07,Hepatic Coma & Other Major Acute Liver Disorders,3.8333
+280,1,2801,07,Alcoholic Liver Disease,0.5266
+280,2,2802,07,Alcoholic Liver Disease,0.6893
+280,3,2803,07,Alcoholic Liver Disease,1.2202
+280,4,2804,07,Alcoholic Liver Disease,3.4014
+281,1,2811,07,Malignancy of Hepatobiliary System & Pancreas,0.7654
+281,2,2812,07,Malignancy of Hepatobiliary System & Pancreas,0.8658
+281,3,2813,07,Malignancy of Hepatobiliary System & Pancreas,1.3482
+281,4,2814,07,Malignancy of Hepatobiliary System & Pancreas,2.5133
+282,1,2821,07,Disorders of Pancreas Except Malignancy,0.5589
+282,2,2822,07,Disorders of Pancreas Except Malignancy,0.7362
+282,3,2823,07,Disorders of Pancreas Except Malignancy,1.4027
+282,4,2824,07,Disorders of Pancreas Except Malignancy,3.9736
+283,1,2831,07,Other Disorders Of The Liver,0.5348
+283,2,2832,07,Other Disorders Of The Liver,0.7034
+283,3,2833,07,Other Disorders Of The Liver,1.1513
+283,4,2834,07,Other Disorders Of The Liver,2.8179
+284,1,2841,07,Disorders of the Gallbladder & Biliary Tract,0.5317
+284,2,2842,07,Disorders of the Gallbladder & Biliary Tract,0.7894
+284,3,2843,07,Disorders of the Gallbladder & Biliary Tract,1.2698
+284,4,2844,07,Disorders of the Gallbladder & Biliary Tract,2.9358
+301,1,3011,08,Hip Joint Replacement,2.0037
+301,2,3012,08,Hip Joint Replacement,2.0956
+301,3,3013,08,Hip Joint Replacement,2.7564
+301,4,3014,08,Hip Joint Replacement,5.4487
+302,1,3021,08,Knee Joint Replacement,1.8668
+302,2,3022,08,Knee Joint Replacement,2.0813
+302,3,3023,08,Knee Joint Replacement,2.7026
+302,4,3024,08,Knee Joint Replacement,5.9584
+303,1,3031,08,Dorsal & Lumbar Fusion Proc for Curvature of Back,4.1959
+303,2,3032,08,Dorsal & Lumbar Fusion Proc for Curvature of Back,4.9428
+303,3,3033,08,Dorsal & Lumbar Fusion Proc for Curvature of Back,6.6091
+303,4,3034,08,Dorsal & Lumbar Fusion Proc for Curvature of Back,10.7974
+304,1,3041,08,Dorsal & Lumbar Fusion Proc Except for Curvature of Back,3.1738
+304,2,3042,08,Dorsal & Lumbar Fusion Proc Except for Curvature of Back,3.8352
+304,3,3043,08,Dorsal & Lumbar Fusion Proc Except for Curvature of Back,5.3675
+304,4,3044,08,Dorsal & Lumbar Fusion Proc Except for Curvature of Back,9.4751
+305,1,3051,08,Amputation of Lower Limb Except Toes,1.5605
+305,2,3052,08,Amputation of Lower Limb Except Toes,2.0716
+305,3,3053,08,Amputation of Lower Limb Except Toes,3.1516
+305,4,3054,08,Amputation of Lower Limb Except Toes,7.1211
+308,1,3081,08,Hip & Femur Procedures for Trauma Except Joint Replacement,1.3352
+308,2,3082,08,Hip & Femur Procedures for Trauma Except Joint Replacement,1.6945
+308,3,3083,08,Hip & Femur Procedures for Trauma Except Joint Replacement,2.4244
+308,4,3084,08,Hip & Femur Procedures for Trauma Except Joint Replacement,4.6207
+309,1,3091,08,Hip & Femur Procedures for Non-Trauma Except Joint Replacement,1.1316
+309,2,3092,08,Hip & Femur Procedures for Non-Trauma Except Joint Replacement,1.739
+309,3,3093,08,Hip & Femur Procedures for Non-Trauma Except Joint Replacement,3.0176
+309,4,3094,08,Hip & Femur Procedures for Non-Trauma Except Joint Replacement,5.5555
+310,1,3101,08,Intervertebral Disc Excision & Decompression,0.8274
+310,2,3102,08,Intervertebral Disc Excision & Decompression,1.2062
+310,3,3103,08,Intervertebral Disc Excision & Decompression,2.3574
+310,4,3104,08,Intervertebral Disc Excision & Decompression,5.8228
+312,1,3121,08,"Skin Graft, Except Hand, For Musculoskeletal & Connective Tissue Diagnoses",1.4158
+312,2,3122,08,"Skin Graft, Except Hand, For Musculoskeletal & Connective Tissue Diagnoses",2.222
+312,3,3123,08,"Skin Graft, Except Hand, For Musculoskeletal & Connective Tissue Diagnoses",4.7491
+312,4,3124,08,"Skin Graft, Except Hand, For Musculoskeletal & Connective Tissue Diagnoses",11.6148
+313,1,3131,08,Knee & Lower Leg Procedures Except Foot,1.0621
+313,2,3132,08,Knee & Lower Leg Procedures Except Foot,1.6254
+313,3,3133,08,Knee & Lower Leg Procedures Except Foot,2.8176
+313,4,3134,08,Knee & Lower Leg Procedures Except Foot,7.0611
+314,1,3141,08,Foot & Toe Procedures,1.0096
+314,2,3142,08,Foot & Toe Procedures,1.3332
+314,3,3143,08,Foot & Toe Procedures,1.9838
+314,4,3144,08,Foot & Toe Procedures,4.3911
+315,1,3151,08,"Shoulder, Upper Arm & Forearm Procedures",0.7909
+315,2,3152,08,"Shoulder, Upper Arm & Forearm Procedures",1.401
+315,3,3153,08,"Shoulder, Upper Arm & Forearm Procedures",2.5024
+315,4,3154,08,"Shoulder, Upper Arm & Forearm Procedures",4.758
+316,1,3161,08,Hand & Wrist Procedures,0.7062
+316,2,3162,08,Hand & Wrist Procedures,1.1822
+316,3,3163,08,Hand & Wrist Procedures,2.1693
+316,4,3164,08,Hand & Wrist Procedures,2.1957
+317,1,3171,08,"Tendon, Muscle & Other Soft Tissue Procedures",0.8191
+317,2,3172,08,"Tendon, Muscle & Other Soft Tissue Procedures",1.3964
+317,3,3173,08,"Tendon, Muscle & Other Soft Tissue Procedures",2.5326
+317,4,3174,08,"Tendon, Muscle & Other Soft Tissue Procedures",6.8885
+320,1,3201,08,Other Musculoskeletel System & Connective Tissue Procedures,0.8958
+320,2,3202,08,Other Musculoskeletel System & Connective Tissue Procedures,1.5739
+320,3,3203,08,Other Musculoskeletel System & Connective Tissue Procedures,2.6125
+320,4,3204,08,Other Musculoskeletel System & Connective Tissue Procedures,6.0791
+321,1,3211,08,Cervical Spinal Fusion & Other Back/Neck Proc Exc Disc Excis/Decomp,1.6278
+321,2,3212,08,Cervical Spinal Fusion & Other Back/Neck Proc Exc Disc Excis/Decomp,2.238
+321,3,3213,08,Cervical Spinal Fusion & Other Back/Neck Proc Exc Disc Excis/Decomp,3.9943
+321,4,3214,08,Cervical Spinal Fusion & Other Back/Neck Proc Exc Disc Excis/Decomp,8.0318
+340,1,3401,08,Fractures of Femur,0.5693
+340,2,3402,08,Fractures of Femur,0.6809
+340,3,3403,08,Fractures of Femur,1.0718
+340,4,3404,08,Fractures of Femur,2.3103
+341,1,3411,08,Fracture of Pelvis or Dislocation of Hip,0.5327
+341,2,3412,08,Fracture of Pelvis or Dislocation of Hip,0.694
+341,3,3413,08,Fracture of Pelvis or Dislocation of Hip,1.1431
+341,4,3414,08,Fracture of Pelvis or Dislocation of Hip,2.6839
+342,1,3421,08,"Fracture or Dislocation Except Femur, Pelvis & Back",0.4297
+342,2,3422,08,"Fracture or Dislocation Except Femur, Pelvis & Back",0.6642
+342,3,3423,08,"Fracture or Dislocation Except Femur, Pelvis & Back",1.1776
+342,4,3424,08,"Fracture or Dislocation Except Femur, Pelvis & Back",3.0572
+343,1,3431,08,Musculoskeletal Malignancy & Pathol Fractures D/T Muscskel Malig,0.7869
+343,2,3432,08,Musculoskeletal Malignancy & Pathol Fractures D/T Muscskel Malig,0.9606
+343,3,3433,08,Musculoskeletal Malignancy & Pathol Fractures D/T Muscskel Malig,1.8745
+343,4,3434,08,Musculoskeletal Malignancy & Pathol Fractures D/T Muscskel Malig,3.1893
+344,1,3441,08,"Osteomyelitis, Septic Arthritis & Other Musculoskeletal Infections",0.8326
+344,2,3442,08,"Osteomyelitis, Septic Arthritis & Other Musculoskeletal Infections",1.1515
+344,3,3443,08,"Osteomyelitis, Septic Arthritis & Other Musculoskeletal Infections",1.7612
+344,4,3444,08,"Osteomyelitis, Septic Arthritis & Other Musculoskeletal Infections",3.5969
+346,1,3461,08,Connective Tissue Disorders,0.622
+346,2,3462,08,Connective Tissue Disorders,0.8746
+346,3,3463,08,Connective Tissue Disorders,1.6069
+346,4,3464,08,Connective Tissue Disorders,4.6612
+347,1,3471,08,"Other Back & Neck Disorders, Fractures & Injuries",0.5076
+347,2,3472,08,"Other Back & Neck Disorders, Fractures & Injuries",0.7118
+347,3,3473,08,"Other Back & Neck Disorders, Fractures & Injuries",1.1336
+347,4,3474,08,"Other Back & Neck Disorders, Fractures & Injuries",3.1888
+349,1,3491,08,"Malfunction, Reaction & Comp of Orthopedic Device or Procedure",0.4955
+349,2,3492,08,"Malfunction, Reaction & Comp of Orthopedic Device or Procedure",0.8854
+349,3,3493,08,"Malfunction, Reaction & Comp of Orthopedic Device or Procedure",1.4975
+349,4,3494,08,"Malfunction, Reaction & Comp of Orthopedic Device or Procedure",3.2013
+351,1,3511,08,Other Musculoskeletal System & Connective Tissue Diagnoses,0.4387
+351,2,3512,08,Other Musculoskeletal System & Connective Tissue Diagnoses,0.5985
+351,3,3513,08,Other Musculoskeletal System & Connective Tissue Diagnoses,1.108
+351,4,3514,08,Other Musculoskeletal System & Connective Tissue Diagnoses,2.9508
+361,1,3611,09,Skin Graft for Skin & Subcutaneous Tissue Diagnoses,1.2713
+361,2,3612,09,Skin Graft for Skin & Subcutaneous Tissue Diagnoses,1.9801
+361,3,3613,09,Skin Graft for Skin & Subcutaneous Tissue Diagnoses,3.6633
+361,4,3614,09,Skin Graft for Skin & Subcutaneous Tissue Diagnoses,9.0014
+362,1,3621,09,Mastectomy Procedures,1.14
+362,2,3622,09,Mastectomy Procedures,1.6731
+362,3,3623,09,Mastectomy Procedures,2.3808
+362,4,3624,09,Mastectomy Procedures,2.4193
+363,1,3631,09,Breast Procedures Except Mastectomy,0.8662
+363,2,3632,09,Breast Procedures Except Mastectomy,1.4371
+363,3,3633,09,Breast Procedures Except Mastectomy,2.0706
+363,4,3634,09,Breast Procedures Except Mastectomy,2.1797
+364,1,3641,09,"Other Skin, Subcutaneous Tissue & Related Procedures",0.7568
+364,2,3642,09,"Other Skin, Subcutaneous Tissue & Related Procedures",1.1455
+364,3,3643,09,"Other Skin, Subcutaneous Tissue & Related Procedures",2.231
+364,4,3644,09,"Other Skin, Subcutaneous Tissue & Related Procedures",4.6774
+380,1,3801,09,Skin Ulcers,0.6189
+380,2,3802,09,Skin Ulcers,0.7859
+380,3,3803,09,Skin Ulcers,1.3095
+380,4,3804,09,Skin Ulcers,3.4578
+381,1,3811,09,Major Skin Disorders,0.5414
+381,2,3812,09,Major Skin Disorders,0.7823
+381,3,3813,09,Major Skin Disorders,1.3919
+381,4,3814,09,Major Skin Disorders,4.027
+382,1,3821,09,Malignant Breast Disorders,0.5692
+382,2,3822,09,Malignant Breast Disorders,0.7354
+382,3,3823,09,Malignant Breast Disorders,1.4962
+382,4,3824,09,Malignant Breast Disorders,3.2104
+383,1,3831,09,Cellulitis & Other Bacterial Skin Infections,0.484
+383,2,3832,09,Cellulitis & Other Bacterial Skin Infections,0.6808
+383,3,3833,09,Cellulitis & Other Bacterial Skin Infections,1.1808
+383,4,3834,09,Cellulitis & Other Bacterial Skin Infections,3.0538
+384,1,3841,09,"Contusion, Open Wound & Other Trauma To Skin & Subcutaneous Tissue",0.374
+384,2,3842,09,"Contusion, Open Wound & Other Trauma To Skin & Subcutaneous Tissue",0.5511
+384,3,3843,09,"Contusion, Open Wound & Other Trauma To Skin & Subcutaneous Tissue",0.9505
+384,4,3844,09,"Contusion, Open Wound & Other Trauma To Skin & Subcutaneous Tissue",1.8904
+385,1,3851,09,"Other Skin, Subcutaneous Tissue & Breast Disorders",0.4429
+385,2,3852,09,"Other Skin, Subcutaneous Tissue & Breast Disorders",0.6031
+385,3,3853,09,"Other Skin, Subcutaneous Tissue & Breast Disorders",0.9196
+385,4,3854,09,"Other Skin, Subcutaneous Tissue & Breast Disorders",2.2481
+401,1,4011,10,Pituitary & Adrenal Procedures,1.2084
+401,2,4012,10,Pituitary & Adrenal Procedures,1.7979
+401,3,4013,10,Pituitary & Adrenal Procedures,3.4192
+401,4,4014,10,Pituitary & Adrenal Procedures,8.9363
+403,1,4031,10,Procedures for Obesity,1.2017
+403,2,4032,10,Procedures for Obesity,1.349
+403,3,4033,10,Procedures for Obesity,2.4759
+403,4,4034,10,Procedures for Obesity,7.1048
+404,1,4041,10,"Thyroid, Parathyroid & Thyroglossal Procedures",0.6331
+404,2,4042,10,"Thyroid, Parathyroid & Thyroglossal Procedures",0.8146
+404,3,4043,10,"Thyroid, Parathyroid & Thyroglossal Procedures",2.6441
+404,4,4044,10,"Thyroid, Parathyroid & Thyroglossal Procedures",2.9881
+405,1,4051,10,"Other Procedures for Endocrine, Nutrititional & Metabolic Disorders",0.996
+405,2,4052,10,"Other Procedures for Endocrine, Nutrititional & Metabolic Disorders",1.7074
+405,3,4053,10,"Other Procedures for Endocrine, Nutrititional & Metabolic Disorders",3.0385
+405,4,4054,10,"Other Procedures for Endocrine, Nutrititional & Metabolic Disorders",7.8774
+420,1,4201,10,Diabetes,0.4243
+420,2,4202,10,Diabetes,0.5913
+420,3,4203,10,Diabetes,0.9294
+420,4,4204,10,Diabetes,2.6767
+421,1,4211,10,"Malnutrition, Failure To Thrive & Other Nutritional Disorders",0.5879
+421,2,4212,10,"Malnutrition, Failure To Thrive & Other Nutritional Disorders",0.8366
+421,3,4213,10,"Malnutrition, Failure To Thrive & Other Nutritional Disorders",1.2751
+421,4,4214,10,"Malnutrition, Failure To Thrive & Other Nutritional Disorders",3.217
+422,1,4221,10,Hypovolemia & Related Electrolyte Disorders,0.3447
+422,2,4222,10,Hypovolemia & Related Electrolyte Disorders,0.5045
+422,3,4223,10,Hypovolemia & Related Electrolyte Disorders,0.93
+422,4,4224,10,Hypovolemia & Related Electrolyte Disorders,2.5751
+423,1,4231,10,Inborn Errors of Metabolism,0.4627
+423,2,4232,10,Inborn Errors of Metabolism,0.8039
+423,3,4233,10,Inborn Errors of Metabolism,1.5805
+423,4,4234,10,Inborn Errors of Metabolism,4.8351
+424,1,4241,10,Other Endocrine Disorders,0.4731
+424,2,4242,10,Other Endocrine Disorders,0.7465
+424,3,4243,10,Other Endocrine Disorders,1.2907
+424,4,4244,10,Other Endocrine Disorders,2.7083
+425,1,4251,10,Electrolyte Disorders Except Hypovolemia Related,0.4086
+425,2,4252,10,Electrolyte Disorders Except Hypovolemia Related,0.5797
+425,3,4253,10,Electrolyte Disorders Except Hypovolemia Related,0.9988
+425,4,4254,10,Electrolyte Disorders Except Hypovolemia Related,2.608
+440,1,4401,11,Kidney Transplant,6.7966
+440,2,4402,11,Kidney Transplant,6.9476
+440,3,4403,11,Kidney Transplant,8.0449
+440,4,4404,11,Kidney Transplant,11.8648
+441,1,4411,11,Major Bladder Procedures,1.488
+441,2,4412,11,Major Bladder Procedures,2.2954
+441,3,4413,11,Major Bladder Procedures,3.314
+441,4,4414,11,Major Bladder Procedures,7.7232
+442,1,4421,11,Kidney & Urinary Tract Procedures for Malignancy,1.2739
+442,2,4422,11,Kidney & Urinary Tract Procedures for Malignancy,1.5393
+442,3,4423,11,Kidney & Urinary Tract Procedures for Malignancy,2.8196
+442,4,4424,11,Kidney & Urinary Tract Procedures for Malignancy,6.4621
+443,1,4431,11,Kidney & Urinary Tract Procedures for Nonmalignancy,1.0668
+443,2,4432,11,Kidney & Urinary Tract Procedures for Nonmalignancy,1.1716
+443,3,4433,11,Kidney & Urinary Tract Procedures for Nonmalignancy,2.3244
+443,4,4434,11,Kidney & Urinary Tract Procedures for Nonmalignancy,5.9917
+444,1,4441,11,Renal Dialysis Access Device Procedure Only,1.0086
+444,2,4442,11,Renal Dialysis Access Device Procedure Only,1.5713
+444,3,4443,11,Renal Dialysis Access Device Procedure Only,3.1837
+444,4,4444,11,Renal Dialysis Access Device Procedure Only,6.3536
+445,1,4451,11,Other Bladder Procedures,0.7461
+445,2,4452,11,Other Bladder Procedures,1.2873
+445,3,4453,11,Other Bladder Procedures,2.0079
+445,4,4454,11,Other Bladder Procedures,2.6783
+446,1,4461,11,Urethral & Transurethral Procedures,0.6359
+446,2,4462,11,Urethral & Transurethral Procedures,0.7846
+446,3,4463,11,Urethral & Transurethral Procedures,1.5491
+446,4,4464,11,Urethral & Transurethral Procedures,4.0512
+447,1,4471,11,"Other Kidney, Urinary Tract & Related Procedures",1.0862
+447,2,4472,11,"Other Kidney, Urinary Tract & Related Procedures",1.3816
+447,3,4473,11,"Other Kidney, Urinary Tract & Related Procedures",2.9085
+447,4,4474,11,"Other Kidney, Urinary Tract & Related Procedures",7.0204
+460,1,4601,11,Renal Failure,0.6389
+460,2,4602,11,Renal Failure,0.7393
+460,3,4603,11,Renal Failure,1.0329
+460,4,4604,11,Renal Failure,3.0028
+461,1,4611,11,Kidney & Urinary Tract Malignancy,0.5317
+461,2,4612,11,Kidney & Urinary Tract Malignancy,0.8023
+461,3,4613,11,Kidney & Urinary Tract Malignancy,1.3704
+461,4,4614,11,Kidney & Urinary Tract Malignancy,3.1241
+462,1,4621,11,Nephritis & Nephrosis,0.4929
+462,2,4622,11,Nephritis & Nephrosis,0.6509
+462,3,4623,11,Nephritis & Nephrosis,1.1908
+462,4,4624,11,Nephritis & Nephrosis,1.32
+463,1,4631,11,Kidney & Urinary Tract Infections,0.4802
+463,2,4632,11,Kidney & Urinary Tract Infections,0.6077
+463,3,4633,11,Kidney & Urinary Tract Infections,0.9588
+463,4,4634,11,Kidney & Urinary Tract Infections,1.9772
+465,1,4651,11,Urinary Stones & Acquired Upper Urinary Tract Obstruction,0.4094
+465,2,4652,11,Urinary Stones & Acquired Upper Urinary Tract Obstruction,0.4966
+465,3,4653,11,Urinary Stones & Acquired Upper Urinary Tract Obstruction,0.8957
+465,4,4654,11,Urinary Stones & Acquired Upper Urinary Tract Obstruction,1.9349
+466,1,4661,11,"Malfunction, Reaction & Complic of Genitourinary Device Or Proc",0.398
+466,2,4662,11,"Malfunction, Reaction & Complic of Genitourinary Device Or Proc",0.6814
+466,3,4663,11,"Malfunction, Reaction & Complic of Genitourinary Device Or Proc",1.2096
+466,4,4664,11,"Malfunction, Reaction & Complic of Genitourinary Device Or Proc",2.6304
+468,1,4681,11,"Other Kidney & Urinary Tract Diagnoses, Signs & Symptoms",0.4763
+468,2,4682,11,"Other Kidney & Urinary Tract Diagnoses, Signs & Symptoms",0.6906
+468,3,4683,11,"Other Kidney & Urinary Tract Diagnoses, Signs & Symptoms",1.1395
+468,4,4684,11,"Other Kidney & Urinary Tract Diagnoses, Signs & Symptoms",2.7692
+480,1,4801,12,Major Male Pelvic Procedures,1.0509
+480,2,4802,12,Major Male Pelvic Procedures,1.217
+480,3,4803,12,Major Male Pelvic Procedures,2.3606
+480,4,4804,12,Major Male Pelvic Procedures,2.8461
+481,1,4811,12,Penis Procedures,0.7861
+481,2,4812,12,Penis Procedures,1.2844
+481,3,4813,12,Penis Procedures,2.8422
+481,4,4814,12,Penis Procedures,3.9958
+482,1,4821,12,Transurethral Prostatectomy,0.5637
+482,2,4822,12,Transurethral Prostatectomy,0.8565
+482,3,4823,12,Transurethral Prostatectomy,2.3055
+482,4,4824,12,Transurethral Prostatectomy,2.5554
+483,1,4831,12,Testes & Scrotal Procedures,0.5858
+483,2,4832,12,Testes & Scrotal Procedures,1.2428
+483,3,4833,12,Testes & Scrotal Procedures,2.7971
+483,4,4834,12,Testes & Scrotal Procedures,2.9635
+484,1,4841,12,Other Male Reproductive System & Related Procedures,0.7287
+484,2,4842,12,Other Male Reproductive System & Related Procedures,1.2513
+484,3,4843,12,Other Male Reproductive System & Related Procedures,1.7982
+484,4,4844,12,Other Male Reproductive System & Related Procedures,1.8678
+500,1,5001,12,"Malignancy, Male Reproductive System",0.4832
+500,2,5002,12,"Malignancy, Male Reproductive System",0.8888
+500,3,5003,12,"Malignancy, Male Reproductive System",1.4186
+500,4,5004,12,"Malignancy, Male Reproductive System",4.4129
+501,1,5011,12,Male Reproductive System Diagnoses Except Malignancy,0.4414
+501,2,5012,12,Male Reproductive System Diagnoses Except Malignancy,0.6196
+501,3,5013,12,Male Reproductive System Diagnoses Except Malignancy,1.0074
+501,4,5014,12,Male Reproductive System Diagnoses Except Malignancy,2.2936
+510,1,5101,13,"Pelvic Evisceration, Radical Hysterectectomy & Radical GYN Procs",1.265
+510,2,5102,13,"Pelvic Evisceration, Radical Hysterectectomy & Radical GYN Procs",1.5729
+510,3,5103,13,"Pelvic Evisceration, Radical Hysterectectomy & Radical GYN Procs",2.8967
+510,4,5104,13,"Pelvic Evisceration, Radical Hysterectectomy & Radical GYN Procs",5.4565
+511,1,5111,13,Uterine & Adnexa Procedures for Ovarian & Adnexal Malignancy,1.2112
+511,2,5112,13,Uterine & Adnexa Procedures for Ovarian & Adnexal Malignancy,1.5079
+511,3,5113,13,Uterine & Adnexa Procedures for Ovarian & Adnexal Malignancy,2.6155
+511,4,5114,13,Uterine & Adnexa Procedures for Ovarian & Adnexal Malignancy,5.7887
+512,1,5121,13,Uterine & Adnexa Procedures for Non-ovarian & Non-adnexal Malig,1.0572
+512,2,5122,13,Uterine & Adnexa Procedures for Non-ovarian & Non-adnexal Malig,1.3269
+512,3,5123,13,Uterine & Adnexa Procedures for Non-ovarian & Non-adnexal Malig,2.523
+512,4,5124,13,Uterine & Adnexa Procedures for Non-ovarian & Non-adnexal Malig,5.1828
+513,1,5131,13,Uterine & Adnexa Procedures for Non-Malignancy Except Leiomyoma,0.8145
+513,2,5132,13,Uterine & Adnexa Procedures for Non-Malignancy Except Leiomyoma,0.9908
+513,3,5133,13,Uterine & Adnexa Procedures for Non-Malignancy Except Leiomyoma,1.785
+513,4,5134,13,Uterine & Adnexa Procedures for Non-Malignancy Except Leiomyoma,4.6761
+514,1,5141,13,Female Reproductive System Reconstructive Procedures,0.7018
+514,2,5142,13,Female Reproductive System Reconstructive Procedures,0.935
+514,3,5143,13,Female Reproductive System Reconstructive Procedures,0.9451
+514,4,5144,13,Female Reproductive System Reconstructive Procedures,1.8831709000302452
+517,1,5171,13,Dilation & Curettage For Non-Obstetric Procedures,0.5714
+517,2,5172,13,Dilation & Curettage For Non-Obstetric Procedures,0.7834
+517,3,5173,13,Dilation & Curettage For Non-Obstetric Procedures,1.7339
+517,4,5174,13,Dilation & Curettage For Non-Obstetric Procedures,1.8494
+518,1,5181,13,Other Female Reproductive System & Related Procedures,0.6805
+518,2,5182,13,Other Female Reproductive System & Related Procedures,1.011
+518,3,5183,13,Other Female Reproductive System & Related Procedures,2.3041
+518,4,5184,13,Other Female Reproductive System & Related Procedures,5.418
+519,1,5191,13,Uterine & Adnexa Procedures For Leiomyoma,0.8121
+519,2,5192,13,Uterine & Adnexa Procedures For Leiomyoma,1.0117
+519,3,5193,13,Uterine & Adnexa Procedures For Leiomyoma,2.1744
+519,4,5194,13,Uterine & Adnexa Procedures For Leiomyoma,3.944
+530,1,5301,13,Female Reproductive System Malignancy,0.5786
+530,2,5302,13,Female Reproductive System Malignancy,0.7324
+530,3,5303,13,Female Reproductive System Malignancy,1.4882
+530,4,5304,13,Female Reproductive System Malignancy,2.7552
+531,1,5311,13,Female Reproductive System Infections,0.4914
+531,2,5312,13,Female Reproductive System Infections,0.6638
+531,3,5313,13,Female Reproductive System Infections,1.1492
+531,4,5314,13,Female Reproductive System Infections,1.1904
+532,1,5321,13,Menstrual & Other Female Reproductive System Disorders,0.4015
+532,2,5322,13,Menstrual & Other Female Reproductive System Disorders,0.5014
+532,3,5323,13,Menstrual & Other Female Reproductive System Disorders,1.0818
+532,4,5324,13,Menstrual & Other Female Reproductive System Disorders,1.0993
+540,1,5401,14,Cesarean Delivery,0.7073
+540,2,5402,14,Cesarean Delivery,0.8147
+540,3,5403,14,Cesarean Delivery,1.0782
+540,4,5404,14,Cesarean Delivery,2.472
+541,1,5411,14,Vaginal Delivery w/ Sterilization &/or D&C,0.6499
+541,2,5412,14,Vaginal Delivery w/ Sterilization &/or D&C,0.6895
+541,3,5413,14,Vaginal Delivery w/ Sterilization &/or D&C,0.9685
+541,4,5414,14,Vaginal Delivery w/ Sterilization &/or D&C,1.0972
+542,1,5421,14,Vaginal Delivery w/ Complicating Procedures Exc Sterilization &/or D&C,0.4819
+542,2,5422,14,Vaginal Delivery w/ Complicating Procedures Exc Sterilization &/or D&C,0.5684
+542,3,5423,14,Vaginal Delivery w/ Complicating Procedures Exc Sterilization &/or D&C,1.2559
+542,4,5424,14,Vaginal Delivery w/ Complicating Procedures Exc Sterilization &/or D&C,1.5931
+544,1,5441,14,"D&C, Aspiration Curettage or Hysterotomy For Obstetric Diagnoses",0.4609
+544,2,5442,14,"D&C, Aspiration Curettage or Hysterotomy For Obstetric Diagnoses",0.6131
+544,3,5443,14,"D&C, Aspiration Curettage or Hysterotomy For Obstetric Diagnoses",1.1441
+544,4,5444,14,"D&C, Aspiration Curettage or Hysterotomy For Obstetric Diagnoses",3.5254
+545,1,5451,14,Ectopic Pregnancy Procedure,0.6966
+545,2,5452,14,Ectopic Pregnancy Procedure,0.8118
+545,3,5453,14,Ectopic Pregnancy Procedure,1.1734
+545,4,5454,14,Ectopic Pregnancy Procedure,1.3046
+546,1,5461,14,Other O.R. Proc For Obstetric Diagnoses Except Delivery Diagnoses,0.5032
+546,2,5462,14,Other O.R. Proc For Obstetric Diagnoses Except Delivery Diagnoses,0.7392
+546,3,5463,14,Other O.R. Proc For Obstetric Diagnoses Except Delivery Diagnoses,1.5442
+546,4,5464,14,Other O.R. Proc For Obstetric Diagnoses Except Delivery Diagnoses,1.8883
+560,1,5601,14,Vaginal Delivery,0.4574
+560,2,5602,14,Vaginal Delivery,0.5002
+560,3,5603,14,Vaginal Delivery,0.6442
+560,4,5604,14,Vaginal Delivery,1.5918
+561,1,5611,14,Postpartum & Post Abortion Diagnoses w/o Procedure,0.3675
+561,2,5612,14,Postpartum & Post Abortion Diagnoses w/o Procedure,0.453
+561,3,5613,14,Postpartum & Post Abortion Diagnoses w/o Procedure,0.7036
+561,4,5614,14,Postpartum & Post Abortion Diagnoses w/o Procedure,1.7682
+563,1,5631,14,Threatened Abortion,0.3228
+563,2,5632,14,Threatened Abortion,0.3994
+563,3,5633,14,Threatened Abortion,0.5694
+563,4,5634,14,Threatened Abortion,0.5853
+564,1,5641,14,"Abortion w/o D&C, Aspiration Curettage or Hysterotomy",0.3296
+564,2,5642,14,"Abortion w/o D&C, Aspiration Curettage or Hysterotomy",0.3943
+564,3,5643,14,"Abortion w/o D&C, Aspiration Curettage or Hysterotomy",0.5853
+564,4,5644,14,"Abortion w/o D&C, Aspiration Curettage or Hysterotomy",0.7028
+565,1,5651,14,False Labor,0.2158
+565,2,5652,14,False Labor,0.2924
+565,3,5653,14,False Labor,0.3041
+565,4,5654,14,False Labor,0.3041
+566,1,5661,14,Other Antepartum Diagnoses,0.3637
+566,2,5662,14,Other Antepartum Diagnoses,0.4486
+566,3,5663,14,Other Antepartum Diagnoses,0.6921
+566,4,5664,14,Other Antepartum Diagnoses,1.4124
+580,1,5801,15,"Neonate, Transferred <5 Days Old, Not Born Here",0.3663
+580,2,5802,15,"Neonate, Transferred <5 Days Old, Not Born Here",0.4178
+580,3,5803,15,"Neonate, Transferred <5 Days Old, Not Born Here",0.5838
+580,4,5804,15,"Neonate, Transferred <5 Days Old, Not Born Here",1.0804
+581,1,5811,15,"Neonate, Transferred <5 Days Old, Born Here",0.1395
+581,2,5812,15,"Neonate, Transferred <5 Days Old, Born Here",0.1745
+581,3,5813,15,"Neonate, Transferred <5 Days Old, Born Here",0.235
+581,4,5814,15,"Neonate, Transferred <5 Days Old, Born Here",0.4599
+583,1,5831,15,"Neonate, w/ ECMO",15.4405
+583,2,5832,15,"Neonate, w/ ECMO",15.4405
+583,3,5833,15,"Neonate, w/ ECMO",15.5087
+583,4,5834,15,"Neonate, w/ ECMO",21.7804
+588,1,5881,15,Neonate BWT <1500G W Major Procedure,20.9174
+588,2,5882,15,Neonate BWT <1500G W Major Procedure,20.9174
+588,3,5883,15,Neonate BWT <1500G W Major Procedure,21.4968
+588,4,5884,15,Neonate BWT <1500G W Major Procedure,28.8694
+589,1,5891,15,Neonate BWT <500G or GA <24 weeks,10.1458
+589,2,5892,15,Neonate BWT <500G or GA <24 weeks,10.1458
+589,3,5893,15,Neonate BWT <500G or GA <24 weeks,5.4627
+589,4,5894,15,Neonate BWT <500G or GA <24 weeks,0.1287
+591,1,5911,15,"Neonate, Birthwt 500-749G w/o Major Procedure",6.2302
+591,2,5912,15,"Neonate, Birthwt 500-749G w/o Major Procedure",7.8654
+591,3,5913,15,"Neonate, Birthwt 500-749G w/o Major Procedure",12.0209
+591,4,5914,15,"Neonate, Birthwt 500-749G w/o Major Procedure",16.458
+593,1,5931,15,"Neonate, Birthwt 750-999G w/o Major Procedure",11.5639
+593,2,5932,15,"Neonate, Birthwt 750-999G w/o Major Procedure",11.6448
+593,3,5933,15,"Neonate, Birthwt 750-999G w/o Major Procedure",12.544
+593,4,5934,15,"Neonate, Birthwt 750-999G w/o Major Procedure",15.5746
+602,1,6021,15,"Neonate, Birthwt 1000-1249G w/ Resp Dist Synd/Oth Maj Resp Or Maj Anom",8.6287
+602,2,6022,15,"Neonate, Birthwt 1000-1249G w/ Resp Dist Synd/Oth Maj Resp Or Maj Anom",8.7806
+602,3,6023,15,"Neonate, Birthwt 1000-1249G w/ Resp Dist Synd/Oth Maj Resp Or Maj Anom",11.1455
+602,4,6024,15,"Neonate, Birthwt 1000-1249G w/ Resp Dist Synd/Oth Maj Resp Or Maj Anom",13.02
+603,1,6031,15,"Neonate, Birthwt 1000-1249G W OR W/O Other Significant Condition",6.0107
+603,2,6032,15,"Neonate, Birthwt 1000-1249G W OR W/O Other Significant Condition",7.2311
+603,3,6033,15,"Neonate, Birthwt 1000-1249G W OR W/O Other Significant Condition",9.4166
+603,4,6034,15,"Neonate, Birthwt 1000-1249G W OR W/O Other Significant Condition",11.7312
+607,1,6071,15,"Neonate, BWT 1250-1499G W Resp Dist Synd/Oth Maj Resp Or Maj Anom",5.867
+607,2,6072,15,"Neonate, BWT 1250-1499G W Resp Dist Synd/Oth Maj Resp Or Maj Anom",6.9082
+607,3,6073,15,"Neonate, BWT 1250-1499G W Resp Dist Synd/Oth Maj Resp Or Maj Anom",8.5591
+607,4,6074,15,"Neonate, BWT 1250-1499G W Resp Dist Synd/Oth Maj Resp Or Maj Anom",12.1757
+608,1,6081,15,"Neonate, Birthwt 1250-1499G W OR W/O Other Significant Condition",4.3648
+608,2,6082,15,"Neonate, Birthwt 1250-1499G W OR W/O Other Significant Condition",5.838
+608,3,6083,15,"Neonate, Birthwt 1250-1499G W OR W/O Other Significant Condition",7.1611
+608,4,6084,15,"Neonate, Birthwt 1250-1499G W OR W/O Other Significant Condition",7.7226
+609,1,6091,15,"Neonate, BWT 1500-2499G W Major Procedure",4.1065
+609,2,6092,15,"Neonate, BWT 1500-2499G W Major Procedure",4.2123
+609,3,6093,15,"Neonate, BWT 1500-2499G W Major Procedure",7.6587
+609,4,6094,15,"Neonate, BWT 1500-2499G W Major Procedure",19.504
+611,1,6111,15,"Neonate, Birthwt 1500-1999G W Major Anomaly",3.0724
+611,2,6112,15,"Neonate, Birthwt 1500-1999G W Major Anomaly",4.3342
+611,3,6113,15,"Neonate, Birthwt 1500-1999G W Major Anomaly",6.0502
+611,4,6114,15,"Neonate, Birthwt 1500-1999G W Major Anomaly",10.8509
+612,1,6121,15,"Neonate, BWT 1500-1999G W Resp Dist Synd/Oth Maj Resp Cond",3.3336
+612,2,6122,15,"Neonate, BWT 1500-1999G W Resp Dist Synd/Oth Maj Resp Cond",4.0459
+612,3,6123,15,"Neonate, BWT 1500-1999G W Resp Dist Synd/Oth Maj Resp Cond",5.8973
+612,4,6124,15,"Neonate, BWT 1500-1999G W Resp Dist Synd/Oth Maj Resp Cond",8.3409
+613,1,6131,15,"Neonate, Birthwt 1500-1999G W Congenital/Perinatal Infection",2.4231
+613,2,6132,15,"Neonate, Birthwt 1500-1999G W Congenital/Perinatal Infection",3.1007
+613,3,6133,15,"Neonate, Birthwt 1500-1999G W Congenital/Perinatal Infection",5.212
+613,4,6134,15,"Neonate, Birthwt 1500-1999G W Congenital/Perinatal Infection",5.7404
+614,1,6141,15,"Neonate, Birthwt 1500-1999G W OR W/O Other Significant Condition",1.9139
+614,2,6142,15,"Neonate, Birthwt 1500-1999G W OR W/O Other Significant Condition",3.3855
+614,3,6143,15,"Neonate, Birthwt 1500-1999G W OR W/O Other Significant Condition",5.3657
+614,4,6144,15,"Neonate, Birthwt 1500-1999G W OR W/O Other Significant Condition",5.5796
+621,1,6211,15,"Neonate, BWT 2000-2499G W Major Anomaly",1.0028
+621,2,6212,15,"Neonate, BWT 2000-2499G W Major Anomaly",2.2132
+621,3,6213,15,"Neonate, BWT 2000-2499G W Major Anomaly",3.5215
+621,4,6214,15,"Neonate, BWT 2000-2499G W Major Anomaly",6.399
+622,1,6221,15,"Neonate, BWT 2000-2499G W Resp Dist Synd/Oth Maj Resp Cond",1.6434
+622,2,6222,15,"Neonate, BWT 2000-2499G W Resp Dist Synd/Oth Maj Resp Cond",2.2903
+622,3,6223,15,"Neonate, BWT 2000-2499G W Resp Dist Synd/Oth Maj Resp Cond",3.2706
+622,4,6224,15,"Neonate, BWT 2000-2499G W Resp Dist Synd/Oth Maj Resp Cond",5.3461
+623,1,6231,15,"Neonate, Birthwt 2000-2499G W Congenital/Perinatal Infection",1.2242
+623,2,6232,15,"Neonate, Birthwt 2000-2499G W Congenital/Perinatal Infection",1.9547
+623,3,6233,15,"Neonate, Birthwt 2000-2499G W Congenital/Perinatal Infection",4.1026
+623,4,6234,15,"Neonate, Birthwt 2000-2499G W Congenital/Perinatal Infection",4.4545
+625,1,6251,15,"Neonate, Birthwt 2000-2499G W Other Significant Condition",1.5294
+625,2,6252,15,"Neonate, Birthwt 2000-2499G W Other Significant Condition",2.4745
+625,3,6253,15,"Neonate, Birthwt 2000-2499G W Other Significant Condition",3.4729
+625,4,6254,15,"Neonate, Birthwt 2000-2499G W Other Significant Condition",3.5019
+626,1,6261,15,"Neonate, BWT 2000-2499G, Normal Newborn Or Neonate W Other Problem",0.1932
+626,2,6262,15,"Neonate, BWT 2000-2499G, Normal Newborn Or Neonate W Other Problem",0.4509
+626,3,6263,15,"Neonate, BWT 2000-2499G, Normal Newborn Or Neonate W Other Problem",1.2421
+626,4,6264,15,"Neonate, BWT 2000-2499G, Normal Newborn Or Neonate W Other Problem",1.2449
+630,1,6301,15,"Neonate, Birthwt > 2499g w/ Major Cardiovasc Procedure",3.1699
+630,2,6302,15,"Neonate, Birthwt > 2499g w/ Major Cardiovasc Procedure",3.5548
+630,3,6303,15,"Neonate, Birthwt > 2499g w/ Major Cardiovasc Procedure",6.563
+630,4,6304,15,"Neonate, Birthwt > 2499g w/ Major Cardiovasc Procedure",14.429
+631,1,6311,15,"Neonate, Birthwt > 2499g w/ Other Major Procedure",1.8859
+631,2,6312,15,"Neonate, Birthwt > 2499g w/ Other Major Procedure",3.6614
+631,3,6313,15,"Neonate, Birthwt > 2499g w/ Other Major Procedure",5.976
+631,4,6314,15,"Neonate, Birthwt > 2499g w/ Other Major Procedure",11.2855
+633,1,6331,15,"Neonate, Birthwt > 2499g w/ Major Anomaly",0.276
+633,2,6332,15,"Neonate, Birthwt > 2499g w/ Major Anomaly",0.8389
+633,3,6333,15,"Neonate, Birthwt > 2499g w/ Major Anomaly",1.9562
+633,4,6334,15,"Neonate, Birthwt > 2499g w/ Major Anomaly",5.3675
+634,1,6341,15,"Neonate, Birthwt > 2499g W Resp Dist Synd/Oth Maj Resp Cond",0.73
+634,2,6342,15,"Neonate, Birthwt > 2499g W Resp Dist Synd/Oth Maj Resp Cond",1.2077
+634,3,6343,15,"Neonate, Birthwt > 2499g W Resp Dist Synd/Oth Maj Resp Cond",2.0429
+634,4,6344,15,"Neonate, Birthwt > 2499g W Resp Dist Synd/Oth Maj Resp Cond",4.0758
+636,1,6361,15,"Neonate, Birthwt > 2499g W Congenital/Perinatal Infection",0.7693
+636,2,6362,15,"Neonate, Birthwt > 2499g W Congenital/Perinatal Infection",1.171
+636,3,6363,15,"Neonate, Birthwt > 2499g W Congenital/Perinatal Infection",2.1068
+636,4,6364,15,"Neonate, Birthwt > 2499g W Congenital/Perinatal Infection",2.1914
+639,1,6391,15,"Neonate, Birthwt > 2499g W Other Significant Condition",0.4931
+639,2,6392,15,"Neonate, Birthwt > 2499g W Other Significant Condition",1.1831
+639,3,6393,15,"Neonate, Birthwt > 2499g W Other Significant Condition",1.9091
+639,4,6394,15,"Neonate, Birthwt > 2499g W Other Significant Condition",3.3028
+640,1,6401,15,"Neonate, Bwt > 2499g, Normal Newborn Or Neonate W Other Problem",0.1643
+640,2,6402,15,"Neonate, Bwt > 2499g, Normal Newborn Or Neonate W Other Problem",0.2348
+640,3,6403,15,"Neonate, Bwt > 2499g, Normal Newborn Or Neonate W Other Problem",0.5236
+640,4,6404,15,"Neonate, Bwt > 2499g, Normal Newborn Or Neonate W Other Problem",0.5242
+650,1,6501,16,Splenectomy,1.2577
+650,2,6502,16,Splenectomy,1.8051
+650,3,6503,16,Splenectomy,2.5619
+650,4,6504,16,Splenectomy,6.5696
+651,1,6511,16,Other Procedures of Blood & Blood Forming Organs,0.9049
+651,2,6512,16,Other Procedures of Blood & Blood Forming Organs,1.52
+651,3,6513,16,Other Procedures of Blood & Blood Forming Organs,2.8121
+651,4,6514,16,Other Procedures of Blood & Blood Forming Organs,7.4551
+660,1,6601,16,Major Hematologic/Immunologic Diag Exc Sickle Cell Crisis & Coagul,0.6118
+660,2,6602,16,Major Hematologic/Immunologic Diag Exc Sickle Cell Crisis & Coagul,0.8829
+660,3,6603,16,Major Hematologic/Immunologic Diag Exc Sickle Cell Crisis & Coagul,1.619
+660,4,6604,16,Major Hematologic/Immunologic Diag Exc Sickle Cell Crisis & Coagul,5.9936
+661,1,6611,16,Coagulation & Platelet Disorders,0.823
+661,2,6612,16,Coagulation & Platelet Disorders,1.0951
+661,3,6613,16,Coagulation & Platelet Disorders,1.8475
+661,4,6614,16,Coagulation & Platelet Disorders,5.4442
+662,1,6621,16,Sickle Cell Anemia Crisis,0.6057
+662,2,6622,16,Sickle Cell Anemia Crisis,0.8455
+662,3,6623,16,Sickle Cell Anemia Crisis,1.472
+662,4,6624,16,Sickle Cell Anemia Crisis,3.4071
+663,1,6631,16,Other Anemia & Disorders Of Blood & Blood Forming Organs,0.4815
+663,2,6632,16,Other Anemia & Disorders Of Blood & Blood Forming Organs,0.6751
+663,3,6633,16,Other Anemia & Disorders Of Blood & Blood Forming Organs,1.0624
+663,4,6634,16,Other Anemia & Disorders Of Blood & Blood Forming Organs,2.1108
+680,1,6801,17,Major O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,1.3405
+680,2,6802,17,Major O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,2.2223
+680,3,6803,17,Major O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,3.9179
+680,4,6804,17,Major O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,11.0082
+681,1,6811,17,Other O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,0.9707
+681,2,6812,17,Other O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,1.4866
+681,3,6813,17,Other O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,3.2976
+681,4,6814,17,Other O.R. Procedures For Lymphatic/Hematopietic/Other Neoplasms,8.1914
+690,1,6901,17,Acute Leukemia,1.1225
+690,2,6902,17,Acute Leukemia,2.3299
+690,3,6903,17,Acute Leukemia,5.1034
+690,4,6904,17,Acute Leukemia,9.2429
+691,1,6911,17,Lymphoma & Non-acute Leukemia,0.8905
+691,2,6912,17,Lymphoma & Non-acute Leukemia,1.2956
+691,3,6913,17,Lymphoma & Non-acute Leukemia,2.4309
+691,4,6914,17,Lymphoma & Non-acute Leukemia,5.9626
+692,1,6921,17,Radiotherapy,0.5757
+692,2,6922,17,Radiotherapy,1.1631
+692,3,6923,17,Radiotherapy,2.8394
+692,4,6924,17,Radiotherapy,3.0522
+693,1,6931,17,Chemotherapy,0.6719
+693,2,6932,17,Chemotherapy,0.8563
+693,3,6933,17,Chemotherapy,1.8606
+693,4,6934,17,Chemotherapy,6.6466
+694,1,6941,17,Lymphatic & Other Malignancies & Neoplasms Of Uncertain Behavior,0.6052
+694,2,6942,17,Lymphatic & Other Malignancies & Neoplasms Of Uncertain Behavior,0.7831
+694,3,6943,17,Lymphatic & Other Malignancies & Neoplasms Of Uncertain Behavior,1.4759
+694,4,6944,17,Lymphatic & Other Malignancies & Neoplasms Of Uncertain Behavior,3.835
+710,1,7101,18,Infectious & Parasitic Diseases Including HIV W O.R. Procedure,1.0487
+710,2,7102,18,Infectious & Parasitic Diseases Including HIV W O.R. Procedure,1.689
+710,3,7103,18,Infectious & Parasitic Diseases Including HIV W O.R. Procedure,3.1658
+710,4,7104,18,Infectious & Parasitic Diseases Including HIV W O.R. Procedure,6.7561
+711,1,7111,18,"Post-Op,Post-Trauma, Other Device Infections W O.R. Procedure",1.1968
+711,2,7112,18,"Post-Op,Post-Trauma, Other Device Infections W O.R. Procedure",1.7309
+711,3,7113,18,"Post-Op,Post-Trauma, Other Device Infections W O.R. Procedure",3.1695
+711,4,7114,18,"Post-Op,Post-Trauma, Other Device Infections W O.R. Procedure",6.711
+720,1,7201,18,Septicemia & Disseminated Infections,0.5973
+720,2,7202,18,Septicemia & Disseminated Infections,0.8646
+720,3,7203,18,Septicemia & Disseminated Infections,1.4945
+720,4,7204,18,Septicemia & Disseminated Infections,3.1756
+721,1,7211,18,"Post-Operative, Post-Traumatic, Other Device Infections",0.6389
+721,2,7212,18,"Post-Operative, Post-Traumatic, Other Device Infections",0.8558
+721,3,7213,18,"Post-Operative, Post-Traumatic, Other Device Infections",1.4403
+721,4,7214,18,"Post-Operative, Post-Traumatic, Other Device Infections",2.8737
+722,1,7221,18,Fever,0.4619
+722,2,7222,18,Fever,0.5744
+722,3,7223,18,Fever,0.863
+722,4,7224,18,Fever,1.4012
+723,1,7231,18,Viral Illness,0.4144
+723,2,7232,18,Viral Illness,0.5121
+723,3,7233,18,Viral Illness,0.928
+723,4,7234,18,Viral Illness,3.3666
+724,1,7241,18,Other Infectious & Parasitic Diseases,0.6267
+724,2,7242,18,Other Infectious & Parasitic Diseases,0.7424
+724,3,7243,18,Other Infectious & Parasitic Diseases,1.3349
+724,4,7244,18,Other Infectious & Parasitic Diseases,3.3241
+740,1,7401,19,Mental Illness Diagnosis W O.R. Procedure,1.5024
+740,2,7402,19,Mental Illness Diagnosis W O.R. Procedure,1.5024
+740,3,7403,19,Mental Illness Diagnosis W O.R. Procedure,1.5024
+740,4,7404,19,Mental Illness Diagnosis W O.R. Procedure,1.5024
+750,1,7501,19,Schizophrenia,1.0479
+750,2,7502,19,Schizophrenia,1.0479
+750,3,7503,19,Schizophrenia,1.0479
+750,4,7504,19,Schizophrenia,1.0479
+751,1,7511,19,Major Depressive Disorders & Other/Unspecified Psychoses,0.4768
+751,2,7512,19,Major Depressive Disorders & Other/Unspecified Psychoses,0.5508
+751,3,7513,19,Major Depressive Disorders & Other/Unspecified Psychoses,1.4403
+751,4,7514,19,Major Depressive Disorders & Other/Unspecified Psychoses,1.4765
+752,1,7521,19,Disorders of Personality & Impulse Control,1.5243
+752,2,7522,19,Disorders of Personality & Impulse Control,1.5243
+752,3,7523,19,Disorders of Personality & Impulse Control,1.5243
+752,4,7524,19,Disorders of Personality & Impulse Control,1.5243
+753,1,7531,19,Bipolar Disorders,0.8748
+753,2,7532,19,Bipolar Disorders,0.8748
+753,3,7533,19,Bipolar Disorders,1.0969
+753,4,7534,19,Bipolar Disorders,1.0969
+754,1,7541,19,Depression Except Major Depressive Disorder,0.4353
+754,2,7542,19,Depression Except Major Depressive Disorder,0.4353
+754,3,7543,19,Depression Except Major Depressive Disorder,0.5463
+754,4,7544,19,Depression Except Major Depressive Disorder,0.5463
+755,1,7551,19,Adjustment Disorders & Neuroses Except Depressive Diagnoses,0.4603
+755,2,7552,19,Adjustment Disorders & Neuroses Except Depressive Diagnoses,0.4618
+755,3,7553,19,Adjustment Disorders & Neuroses Except Depressive Diagnoses,0.4618
+755,4,7554,19,Adjustment Disorders & Neuroses Except Depressive Diagnoses,0.4618
+756,1,7561,19,Acute Anxiety & Delirium States,0.3951
+756,2,7562,19,Acute Anxiety & Delirium States,0.5844
+756,3,7563,19,Acute Anxiety & Delirium States,0.5844
+756,4,7564,19,Acute Anxiety & Delirium States,0.5844
+757,1,7571,19,Organic Mental Health Disturbances,0.675
+757,2,7572,19,Organic Mental Health Disturbances,0.926
+757,3,7573,19,Organic Mental Health Disturbances,1.3118
+757,4,7574,19,Organic Mental Health Disturbances,1.3118
+758,1,7581,19,Childhood Behavioral Disorders,0.267
+758,2,7582,19,Childhood Behavioral Disorders,0.6312
+758,3,7583,19,Childhood Behavioral Disorders,0.6312
+758,4,7584,19,Childhood Behavioral Disorders,0.6312
+759,1,7591,19,Eating Disorders,0.8207
+759,2,7592,19,Eating Disorders,0.8207
+759,3,7593,19,Eating Disorders,0.8207
+759,4,7594,19,Eating Disorders,0.8207
+760,1,7601,19,Other Mental Health Disorders,0.44
+760,2,7602,19,Other Mental Health Disorders,0.5238
+760,3,7603,19,Other Mental Health Disorders,0.5974
+760,4,7604,19,Other Mental Health Disorders,0.5974
+770,1,7701,20,"Drug & Alcohol Abuse or Dependence, Left Against Medical Advice",0.2865
+770,2,7702,20,"Drug & Alcohol Abuse or Dependence, Left Against Medical Advice",0.3646
+770,3,7703,20,"Drug & Alcohol Abuse or Dependence, Left Against Medical Advice",0.6489
+770,4,7704,20,"Drug & Alcohol Abuse or Dependence, Left Against Medical Advice",0.7853
+772,1,7721,20,Alcohol & Drug Dependence w/ Rehab/Detox Therapy,1.5138224555163342
+772,2,7722,20,Alcohol & Drug Dependence w/ Rehab/Detox Therapy,1.5138224555163342
+772,3,7723,20,Alcohol & Drug Dependence w/ Rehab/Detox Therapy,1.5138224555163342
+772,4,7724,20,Alcohol & Drug Dependence w/ Rehab/Detox Therapy,1.5138224555163342
+773,1,7731,20,Opioid Abuse & Dependence,0.4966
+773,2,7732,20,Opioid Abuse & Dependence,0.5471
+773,3,7733,20,Opioid Abuse & Dependence,0.82
+773,4,7734,20,Opioid Abuse & Dependence,1.0478
+774,1,7741,20,Cocaine Abuse & Dependence,0.5188
+774,2,7742,20,Cocaine Abuse & Dependence,0.5243
+774,3,7743,20,Cocaine Abuse & Dependence,0.6839
+774,4,7744,20,Cocaine Abuse & Dependence,0.8885
+775,1,7751,20,Alcohol Abuse & Dependence,0.5229
+775,2,7752,20,Alcohol Abuse & Dependence,0.6475
+775,3,7753,20,Alcohol Abuse & Dependence,1.2167
+775,4,7754,20,Alcohol Abuse & Dependence,3.1106
+776,1,7761,20,Other Drug Abuse & Dependence,0.505
+776,2,7762,20,Other Drug Abuse & Dependence,0.5561
+776,3,7763,20,Other Drug Abuse & Dependence,0.6384
+776,4,7764,20,Other Drug Abuse & Dependence,0.6384
+791,1,7911,21,O.R. Procedure For Other Complications Of Treatment,0.8548
+791,2,7912,21,O.R. Procedure For Other Complications Of Treatment,1.3954
+791,3,7913,21,O.R. Procedure For Other Complications Of Treatment,2.5715
+791,4,7914,21,O.R. Procedure For Other Complications Of Treatment,6.4399
+811,1,8111,21,Allergic Reactions,0.2847
+811,2,8112,21,Allergic Reactions,0.4217
+811,3,8113,21,Allergic Reactions,0.9342
+811,4,8114,21,Allergic Reactions,2.8855
+812,1,8121,21,Poisoning Of Medicinal Agents,0.3866
+812,2,8122,21,Poisoning Of Medicinal Agents,0.4889
+812,3,8123,21,Poisoning Of Medicinal Agents,0.9044
+812,4,8124,21,Poisoning Of Medicinal Agents,2.3195
+813,1,8131,21,Other Complications of Treatment,0.4759
+813,2,8132,21,Other Complications of Treatment,0.6693
+813,3,8133,21,Other Complications of Treatment,1.1429
+813,4,8134,21,Other Complications of Treatment,2.7189
+815,1,8151,21,"Other Injury, Poisoning & Toxic Effect Diagnoses",0.3116
+815,2,8152,21,"Other Injury, Poisoning & Toxic Effect Diagnoses",0.5175
+815,3,8153,21,"Other Injury, Poisoning & Toxic Effect Diagnoses",1.0794
+815,4,8154,21,"Other Injury, Poisoning & Toxic Effect Diagnoses",2.5751
+816,1,8161,21,Toxic Effects Of Non-Medicinal Substances,0.3788
+816,2,8162,21,Toxic Effects Of Non-Medicinal Substances,0.51
+816,3,8163,21,Toxic Effects Of Non-Medicinal Substances,0.8584
+816,4,8164,21,Toxic Effects Of Non-Medicinal Substances,2.3108
+841,1,8411,22,Extensive 3rd Degree Burns W Skin Graft,6.818749840925654
+841,2,8412,22,Extensive 3rd Degree Burns W Skin Graft,6.818749840925654
+841,3,8413,22,Extensive 3rd Degree Burns W Skin Graft,6.8763
+841,4,8414,22,Extensive 3rd Degree Burns W Skin Graft,19.8796
+842,1,8421,22,Full Thickness Burns W Skin Graft,1.6166
+842,2,8422,22,Full Thickness Burns W Skin Graft,2.5836
+842,3,8423,22,Full Thickness Burns W Skin Graft,4.6277
+842,4,8424,22,Full Thickness Burns W Skin Graft,8.8503
+843,1,8431,22,Extensive 3rd Degree Or Full Thickness Burns W/O Skin Graft,0.8192
+843,2,8432,22,Extensive 3rd Degree Or Full Thickness Burns W/O Skin Graft,1.2002
+843,3,8433,22,Extensive 3rd Degree Or Full Thickness Burns W/O Skin Graft,1.8216
+843,4,8434,22,Extensive 3rd Degree Or Full Thickness Burns W/O Skin Graft,2.9335
+844,1,8441,22,Partial Thickness Burns W Or W/O Skin Graft,0.5845
+844,2,8442,22,Partial Thickness Burns W Or W/O Skin Graft,1.0847
+844,3,8443,22,Partial Thickness Burns W Or W/O Skin Graft,1.903
+844,4,8444,22,Partial Thickness Burns W Or W/O Skin Graft,2.2819
+850,1,8501,23,"Procedure W Diag Of Rehab, Aftercare Or Oth Contact W Health Service",1.1001
+850,2,8502,23,"Procedure W Diag Of Rehab, Aftercare Or Oth Contact W Health Service",1.4398
+850,3,8503,23,"Procedure W Diag Of Rehab, Aftercare Or Oth Contact W Health Service",3.7078
+850,4,8504,23,"Procedure W Diag Of Rehab, Aftercare Or Oth Contact W Health Service",6.6449
+860,1,8601,23,Rehabilitation,1.195
+860,2,8602,23,Rehabilitation,1.233
+860,3,8603,23,Rehabilitation,2.1789
+860,4,8604,23,Rehabilitation,2.3694
+861,1,8611,23,"Signs, Symptoms & Other Factors Influencing Health Status",0.3953
+861,2,8612,23,"Signs, Symptoms & Other Factors Influencing Health Status",0.569
+861,3,8613,23,"Signs, Symptoms & Other Factors Influencing Health Status",0.9482
+861,4,8614,23,"Signs, Symptoms & Other Factors Influencing Health Status",2.3669
+862,1,8621,23,Other Aftercare & Convalescence,0.512
+862,2,8622,23,Other Aftercare & Convalescence,0.7448
+862,3,8623,23,Other Aftercare & Convalescence,1.0159
+862,4,8624,23,Other Aftercare & Convalescence,1.3152
+863,1,8631,23,Neonatal Aftercare,0.6975
+863,2,8632,23,Neonatal Aftercare,1.5391
+863,3,8633,23,Neonatal Aftercare,3.8831
+863,4,8634,23,Neonatal Aftercare,5.1987
+890,1,8901,24,HIV W Multiple Major HIV Related Conditions,1.1815
+890,2,8902,24,HIV W Multiple Major HIV Related Conditions,1.1852
+890,3,8903,24,HIV W Multiple Major HIV Related Conditions,1.8549
+890,4,8904,24,HIV W Multiple Major HIV Related Conditions,3.9622
+892,1,8921,24,HIV W Major HIV Related Condition,0.8407
+892,2,8922,24,HIV W Major HIV Related Condition,0.8407
+892,3,8923,24,HIV W Major HIV Related Condition,1.2528
+892,4,8924,24,HIV W Major HIV Related Condition,2.6101
+893,1,8931,24,HIV W Multiple Significant HIV Related Conditions,0.6557
+893,2,8932,24,HIV W Multiple Significant HIV Related Conditions,0.8921
+893,3,8933,24,HIV W Multiple Significant HIV Related Conditions,1.3118
+893,4,8934,24,HIV W Multiple Significant HIV Related Conditions,1.3621
+894,1,8941,24,HIV W One Signif HIV Cond Or W/O Signif Related Cond,0.545
+894,2,8942,24,HIV W One Signif HIV Cond Or W/O Signif Related Cond,0.6724
+894,3,8943,24,HIV W One Signif HIV Cond Or W/O Signif Related Cond,1.0455
+894,4,8944,24,HIV W One Signif HIV Cond Or W/O Signif Related Cond,1.0521
+910,1,9101,25,Craniotomy For Multiple Significant Trauma,2.613802368652643
+910,2,9102,25,Craniotomy For Multiple Significant Trauma,2.613802368652643
+910,3,9103,25,Craniotomy For Multiple Significant Trauma,3.7946
+910,4,9104,25,Craniotomy For Multiple Significant Trauma,6.9531
+911,1,9111,25,Extensive Abdominal/Thoraic Procedures For Mult Significant Trauma,2.0596
+911,2,9112,25,Extensive Abdominal/Thoraic Procedures For Mult Significant Trauma,2.0857
+911,3,9113,25,Extensive Abdominal/Thoraic Procedures For Mult Significant Trauma,2.6056
+911,4,9114,25,Extensive Abdominal/Thoraic Procedures For Mult Significant Trauma,6.6343
+912,1,9121,25,Musculoskeletal & Other Procedures For Multiple Significant Trauma,2.4453
+912,2,9122,25,Musculoskeletal & Other Procedures For Multiple Significant Trauma,2.4453
+912,3,9123,25,Musculoskeletal & Other Procedures For Multiple Significant Trauma,4.0039
+912,4,9124,25,Musculoskeletal & Other Procedures For Multiple Significant Trauma,7.2751
+930,1,9301,25,Multiple Significant Trauma W/O O.R. Procedure,0.593
+930,2,9302,25,Multiple Significant Trauma W/O O.R. Procedure,0.9463
+930,3,9303,25,Multiple Significant Trauma W/O O.R. Procedure,1.6742
+930,4,9304,25,Multiple Significant Trauma W/O O.R. Procedure,3.6226
+950,1,9501,UNK,Extensive Procedure Unrelated To Principal Diagnosis,1.2103
+950,2,9502,UNK,Extensive Procedure Unrelated To Principal Diagnosis,2.2825
+950,3,9503,UNK,Extensive Procedure Unrelated To Principal Diagnosis,4.0303
+950,4,9504,UNK,Extensive Procedure Unrelated To Principal Diagnosis,8.2063
+951,1,9511,UNK,Moderately Extensive Procedure Unrelated To Principal Diagnosis,0.9397
+951,2,9512,UNK,Moderately Extensive Procedure Unrelated To Principal Diagnosis,1.4958
+951,3,9513,UNK,Moderately Extensive Procedure Unrelated To Principal Diagnosis,3.0114
+951,4,9514,UNK,Moderately Extensive Procedure Unrelated To Principal Diagnosis,6.5988
+952,1,9521,UNK,Nonextensive Procedure Unrelated To Principal Diagnosis,0.7435
+952,2,9522,UNK,Nonextensive Procedure Unrelated To Principal Diagnosis,1.2367
+952,3,9523,UNK,Nonextensive Procedure Unrelated To Principal Diagnosis,2.5426
+952,4,9524,UNK,Nonextensive Procedure Unrelated To Principal Diagnosis,5.9208
