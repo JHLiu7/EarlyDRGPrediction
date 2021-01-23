@@ -1,7 +1,3 @@
-files: utils; prepare data: need to have fixed dict so as to match the embedding weights in model checkpoints (rewrite data loader?)
-
-put only text-based model in the repo for now. don't put cross-val; evaluation: rewrite print-out, include hpa?
-
 # Early DRG Prediction and Cost Estimation
 
 <p align="center" width="100%">
@@ -33,7 +29,7 @@ To create the DRG cohort for the experiments, run below. This will create cohort
 python create_cohort.py --data_dir $DATA_PATH --mimic_dir $MIMIC_PATH --threshold 48
 ```
 
-The [BioWordVec](https://github.com/ncbi-nlp/BioSentVec) word embedding is used in the experiments. After downloading it to `$EMBED_PATH`, run the line below to preprocess the notes.
+The [BioWordVec](https://github.com/ncbi-nlp/BioSentVec) word embedding is used in the experiments. After downloading it to `$EMBED_PATH`, run the line below to preprocess the notes. We also include the selected embeddings and token-to-id dictionary for the two cohorts in `data`.
 
 ```shell
 # preprocessing text for MS-DRG cohort 
@@ -45,7 +41,7 @@ python preprocessing.py --data_dir $DATA_PATH --pretrained_embed_dir $EMBED_PATH
 
 ## Training and Evaluation
 
-The current experiment uses [CAML](https://github.com/jamesmullenbach/caml-mimic), an attention-based CNN model, to predict early DRG. This would require GPU resource for computation, a device can be specified in the command line. The following code can be run to load the model checkpoint provided in `checkpoints/$cohort` to evaluate on the test set.
+The current experiment uses [CAML](https://github.com/jamesmullenbach/caml-mimic), an attention-based CNN model, to predict early DRG. This would require GPU resource for computation, a device can be specified in the command line. The following code can be run to load the model checkpoint provided in `checkpoints/$cohort` to evaluate on the test set. We provided two checkpoints for each cohort.
 
 ```shell
 # evaluate on the MS-DRG cohort
