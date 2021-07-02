@@ -12,35 +12,6 @@ from options import args
 
 from gensim.models import KeyedVectors
 
-def main():
-    """
-        tokenize raw text and save token2id dict, embeddings, and processed text
-    """
-    data_dir = '%s/%s' % (args.data_dir, args.cohort)
-    text_dir = '%s/text_raw' % data_dir
-    output_dir = '%s/text_processed' % data_dir
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-    files = [f for f in os.listdir(text_dir) if f.endswith('pk')]
-
-    # get vocab and embeddings
-    words = get_common(files, text_dir, output_dir, args.threshold)
-    token2id, embedding = get_embeddings(words, args.pretrained_embed_dir)
-
-    # save vocab and embeddings
-    t2i_path = os.path.join(data_dir, 'token2id.dict')
-    with open(t2i_path, 'wb') as f:
-        pk.dump(token2id, f)
-
-    embed_path = os.path.join(data_dir, 'embedding.npy')
-    np.save(embed_path, embedding)
-
-    # save processed text to new subfolder
-    for file in tqdm(files):
-        save2id(file, token2id, text_dir, output_dir, args.threshold)
-
-
-
 # the following re patterns and cleaning processes are adapted from the biowordvec repo
 # ==============================================================================
 SECTION_TITLES = re.compile(
@@ -143,7 +114,9 @@ def preprocess_mimic(text):
     return tokens
 # ==============================================================================
 
-def get_stay_tokens(file, text_dir, hour, keeptime=False):
+
+hour=args.threshold
+def get_stay_tokens(file, text_dir, keeptime=False):
     """
         input: path
         output: tokens in order for all texts representing the stay
@@ -152,7 +125,7 @@ def get_stay_tokens(file, text_dir, hour, keeptime=False):
     note_dict = OrderedDict()
     for _, row in stay_df.iterrows():
         diff = row['DIFFTIME']
-        if diff < hour:
+        if diff <hour:
             text = preprocess_mimic(row['TEXT'])
             note_dict[diff] = text
 
@@ -162,22 +135,22 @@ def get_stay_tokens(file, text_dir, hour, keeptime=False):
         tokens = [t for note in note_dict.values() for t in note]
         return tokens
 
-def get_common(files, text_dir, output_dir, threshold_hour):
+def get_common(files, text_dir, output_dir):
     all_tokens=[]
     for file in tqdm(files):
-        all_tokens.extend(get_stay_tokens(file, text_dir, threshold_hour))
+        all_tokens.extend(get_stay_tokens(file, text_dir))
     token_count = Counter(all_tokens)
 
     common = [w for (w,c) in token_count.most_common() if c >= args.word_min_freq]  
     print("{} tokens in text, {} unique, and {} of them appeared at least three times".format(len(all_tokens), len(token_count),len(common)))
-    # with open(os.path.join(output_dir, 'unique_common_words.txt'), 'w') as f:
-    #     for w in common:
-    #         f.write(w+'\n')
+    with open(os.path.join(output_dir, 'unique_common.txt'), 'w') as f:
+        for w in common:
+            f.write(w+'\n')
     return common
 
-def get_embeddings(words, embed_dir):
+def get_embeddings(words, output_dir):
     print("loading biovec...")
-    model = KeyedVectors.load_word2vec_format(os.path.join(embed_dir, 'BioWordVec_PubMed_MIMICIII_d200.vec.bin'), binary=True)
+    model = KeyedVectors.load_word2vec_format(os.path.join(args.pretrained_embed_dir, 'BioWordVec_PubMed_MIMICIII_d200.vec.bin'), binary=True)
     print("loaded, start to get embed for tokens")
 
     model_vocab = set(model.index2word)
@@ -190,8 +163,6 @@ def get_embeddings(words, embed_dir):
         else:
             oov.append(w)
     print("oov", oov)
-
-    valid_words = sorted(valid_words)
 
     # vocab dicts
     token2id = {}
@@ -209,18 +180,42 @@ def get_embeddings(words, embed_dir):
     for i, w in enumerate(valid_words):
         embedding[i+1] = model[w]
 
-    return token2id, embedding
+    # save them
+    t2i_path = os.path.join(output_dir, 'token2id.dict')
+    with open(t2i_path, 'wb') as f:
+        pk.dump(token2id, f)
 
-def save2id(file, token2id, text_dir, output_dir, threshold_hour):
+    embed_path = os.path.join(output_dir, 'embedding.npy')
+    np.save(embed_path, embedding)
+
+    return token2id
+
+def save2id(file, token2id, text_dir, output_dir):
     output_path = os.path.join(output_dir, file.replace('pk','dict'))
-    note_dict = get_stay_tokens(file, text_dir, threshold_hour, keeptime=True)
+    note_dict = get_stay_tokens(file, text_dir, keeptime=True)
 
     out_dict = OrderedDict()
     for key, tokens in note_dict.items():
-        out_dict[key] = tokens
+        out_dict[key] = [token2id[w] if w in token2id else token2id['<unk>'] for w in tokens]
 
     with open(output_path, 'wb') as f:
         pk.dump(out_dict, f)
+
+def main():
+    data_dir = '%s/%s' % (args.data_dir, args.cohort)
+    text_dir = '%s/text_raw' % data_dir
+    output_dir = '%s/text_embed' % data_dir
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    files = [f for f in os.listdir(text_dir) if f.endswith('pk')]
+
+    # get vocab and save embeddings
+    words = get_common(files, text_dir, output_dir)
+    token2id = get_embeddings(words, output_dir)
+
+    # text to ids
+    for file in tqdm(files):
+        save2id(file, token2id, text_dir, output_dir)
 
 if __name__ == '__main__':
     main()
