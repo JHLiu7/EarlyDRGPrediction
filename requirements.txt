@@ -70,7 +70,7 @@ ptyprocess==0.6.0
 py4j==0.10.4
 pyasn1==0.4.8
 pybind11==2.4.3
-Pygments==2.5.2
+Pygments==2.7.4
 pyjnius==1.2.1
 pyparsing==2.4.6
 pyrsistent==0.15.7
