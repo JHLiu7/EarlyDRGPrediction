@@ -86,7 +86,7 @@ QtPy==1.9.0
 regex==2020.2.20
 requests==2.23.0
 rope==0.16.0
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.3.3
 sacremoses==0.0.38
 scikit-learn==0.22.2.post1
