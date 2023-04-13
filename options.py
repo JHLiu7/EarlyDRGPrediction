@@ -1,8 +1,8 @@
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--data_dir", default='data', type=str, help="Directory for data folder which contains root cohort, as well as subfolders for text files")
-parser.add_argument("--mimic_dir", default='/scratch/jinghuil1/mimic-iii-clinical-database-1.4', type=str, help="Dir for MIMIC-III")
+parser.add_argument("--data_dir", default='data_n', type=str, help="Directory for data folder which contains root cohort, as well as subfolders for text files")
+parser.add_argument("--mimic_dir", default='~/mimic/', type=str, help="Dir for MIMIC-III")
 
 parser.add_argument("--threshold", default=48, type=int, help="threshold hour to decide what data to include, eg, 48h after icu")
 parser.add_argument("--cohort", default='ms', type=str, choices=['ms', 'apr'])
@@ -11,7 +11,7 @@ parser.add_argument("--rule", default='13', type=str, choices=['12', '13', '14']
 
 parser.add_argument("--target", default='drg', type=str, choices=['drg', 'rw'], help="define the target and corresponding objective, choices include drg code and relative weight")
 
-parser.add_argument("--pretrained_embed_dir", default='data/embeddings', type=str, help="dir to store pretrained embedding weights")
+parser.add_argument("--pretrained_embed_dir", default='../', type=str, help="dir to store pretrained embedding weights")
 parser.add_argument("--word_min_freq", default=3, type=int)
 parser.add_argument("--max_seq_length", default=2000, type=int)
 

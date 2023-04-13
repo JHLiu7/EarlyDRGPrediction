@@ -13,8 +13,8 @@ class DrgTextDataset(Dataset):
         self.max_seq_length = args.max_seq_length
         self.data_dir = '%s/%s' % (args.data_dir, args.cohort)
         self.text_dir = '%s/text_embed' % self.data_dir
-        self.token2id_dir = '%s/token2id.dict' % self.data_dir
-        self.token2id = pd.read_pickle(self.token2id_dir)
+        # self.token2id_dir = '%s/token2id.dict' % self.data_dir
+        # self.token2id = pd.read_pickle(self.token2id_dir)
 
         _, self.d2i, _, _, self.d2w = load_rule(rule_path)
 

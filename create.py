@@ -5,15 +5,19 @@ import pickle as pk
 import random
 import argparse
 from tqdm import tqdm
+random.seed(233)
 
-from options import args
+# from options import args
 
+"""
+    Two DRG cohort: MS, APR
+"""
 
 def main():
-    """
-        Prepare two DRG cohorts from MIMIC-III: MS, APR
-        And extract notes for each stay prior to threshold hour
-    """
+    # drg_df = getDrgCases(args.mimic_dir)
+
+    # ms_df = getMS(args.mimic_dir)
+    # apr_df= getAPR(args.mimic_dir)
 
     for cohort in ['ms', 'apr']:
     # for cohort in ['apr']:
@@ -23,8 +27,6 @@ def main():
 
         construct_cohort(df, notes_df, cohort)
         print('\n\n\n')
-
-
 
 def construct_cohort(drg_df, notes_df, drg_type='ms'):
     drg_path = '%s/%s' % (args.data_dir, drg_type)
@@ -37,9 +39,8 @@ def construct_cohort(drg_df, notes_df, drg_type='ms'):
         sub = row['SUBJECT_ID']
         hadm = row['HADM_ID']
         stay = row['stay']
-        adm_diag = row['DIAGNOSIS']
 
-        hours = extract_note_append_adm_diag(sub, hadm, adm_diag, notes_df, text_dir)
+        hours = extract_note(sub, hadm, notes_df, text_dir)
 
         if hours:
             pairs.append((stay, *hours))
@@ -102,7 +103,7 @@ def filterCohort(drg_df, mimic_dir):
     icu_once = icu.HADM_ID.isin(icu_count[icu_count==1].index)
     icu_no_transfer = (icu.FIRST_WARDID == icu.LAST_WARDID) & (icu.FIRST_CAREUNIT == icu.LAST_CAREUNIT)
     icu_single = icu[icu_once & icu_no_transfer][['SUBJECT_ID', 'HADM_ID', 'ICUSTAY_ID','INTIME', 'DBSOURCE','LOS']]
-    adm = pd.read_csv(os.path.join(mimic_dir, 'ADMISSIONS.csv'), usecols=['SUBJECT_ID', 'HADM_ID', 'ADMITTIME','DISCHTIME','DIAGNOSIS'])
+    adm = pd.read_csv(os.path.join(mimic_dir, 'ADMISSIONS.csv'), usecols=['SUBJECT_ID', 'HADM_ID', 'ADMITTIME','DISCHTIME'])
     pt = pd.read_csv(os.path.join(mimic_dir, 'PATIENTS.csv'), usecols=['SUBJECT_ID','DOB'])
 
     # map to adm and pt to get age
@@ -132,7 +133,7 @@ def loadNOTES(event_df):
     # map notes 
     cols = ['SUBJECT_ID', 'HADM_ID', 'CHARTTIME', 'CATEGORY', 'TEXT']
     print("Loading MIMIC notes...209iter")
-    iter_notes = pd.read_csv(os.path.join(args.mimic_dir, 'NOTEEVENTS.csv'), iterator=True, usecols=cols, chunksize=10000)
+    iter_notes = pd.read_csv(os.path.join(args.mimic_dir, 'NOTEEVENTS.csv.gz'), iterator=True, usecols=cols, chunksize=10000)
     dfList = []
     for d in tqdm(iter_notes, total=209):
         dfList.append(event_df.merge(d, on=['SUBJECT_ID', 'HADM_ID']))
@@ -149,7 +150,7 @@ def loadNOTES(event_df):
 
     return notes_df
 
-def extract_note_append_adm_diag(sub, hadm, adm_diag, notes_df, output_dir):
+def extract_note(sub, hadm, notes_df, output_dir):
     """
         extract and save notes for each visit
         get info about note availability
@@ -171,19 +172,15 @@ def extract_note_append_adm_diag(sub, hadm, adm_diag, notes_df, output_dir):
     # hour48 = 1 if earlies<48 else 0
     hours = (hour0, hour12, hour24, hour36)
 
-    valid_mask = note_slice.DIFFTIME <= args.threshold
+    valid_mask = note_slice.DIFFTIME < args.threshold
     valid_df = note_slice[valid_mask]
 
     if len(valid_df) == 0:
         return None
     else:
-        if adm_diag != adm_diag: # check for nan
-            adm_diag = ''
-        adm_diag_df = pd.DataFrame([{'CATEGORY': 'admission_diag', 'DIFFTIME': -1e+5, 'TEXT': adm_diag}])
-        valid_df = pd.concat([adm_diag_df, valid_df], ignore_index=True)
         with open(os.path.join(output_dir, output_file), 'wb') as f:
-            pk.dump(valid_df, f, pk.HIGHEST_PROTOCOL)
-            # pk.dump(note_slice, f, pk.HIGHEST_PROTOCOL)
+            # pk.dump(valid_df, f, pk.HIGHEST_PROTOCOL)
+            pk.dump(note_slice, f, pk.HIGHEST_PROTOCOL)
         return hours
 
 def split_cohort(drg_df, output_dir):
@@ -209,26 +206,25 @@ def split_cohort(drg_df, output_dir):
 
         return train_df, test_df
 
-    test_stays_csv = '%s/test_stays.csv' % output_dir
-    if os.path.isfile(test_stays_csv):
-        test_stay = pd.read_csv(test_stays_csv)['stay']
-        test = drg_df[drg_df['stay'].isin(test_stay)]
-        train_val = drg_df[~drg_df['stay'].isin(test_stay)]
-    else:
-        # create test split
-        train_val, test = split_patients(drg_df)
+    # create test split
+    train_val, test = split_patients(drg_df)
 
-    assert len(train_val)+len(test) == len(drg_df)
+    # create val split
+    train, val = split_patients(train_val, 0.05)
+
+    assert len(train)+len(val)+len(test) == len(drg_df)
 
     # save all info
-    drg_df.to_csv('%s/drg_cohort.csv' % output_dir, index=False)
-    train_val.to_csv('%s/train_val.csv' % output_dir, index=False)
-    test.to_csv('%s/test.csv' % output_dir, index=False)
+    drg_df.to_csv('%s/drg_cohort.csv' % output_dir,index=False)
+    train.to_csv('%s/train.csv' % output_dir,index=False)
+    val.to_csv('%s/val.csv' % output_dir,index=False)
+    test.to_csv('%s/test.csv' % output_dir,index=False)
 
-    tr_pt, tr_st = len(train_val.SUBJECT_ID.unique()), len(train_val)
+    tr_pt, tr_st = len(train.SUBJECT_ID.unique()), len(train)
     te_pt, te_st = len(test.SUBJECT_ID.unique()), len(test)
+    val_pt, val_st = len(val.SUBJECT_ID.unique()), len(val)
 
-    print("..split into train ({} pt, {} st), and test ({} pt, {} st).".format(tr_pt, tr_st, te_pt, te_st))
+    print("..split into train ({} pt, {} st), val ({} pt, {} st), and test ({} pt, {} st).".format(tr_pt, tr_st, val_pt, val_st, te_pt, te_st))
 
 
 if __name__ == "__main__":

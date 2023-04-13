@@ -27,16 +27,16 @@ if __name__ == '__main__':
 
     data_dir = '%s/%s' % (args.data_dir, args.cohort)
     TEXT_DIR = '%s/text_embed' % data_dir
-    embedding = np.load('%s/embedding.npy' % data_dir) 
+    embedding = np.load('%s/embedding.npy' % TEXT_DIR) 
 
-    run_time = time.strftime('%b_%d_%H', time.localtime())
+    run_time = time.strftime('%b_%d_%H_%M', time.localtime())
     result_dir = 'results/%s' % '_'.join([args.cohort, args.model, 'text', run_time])
 
 
     train_val_df = pd.read_csv('%s/train_val.csv' % data_dir)
     test_df = pd.read_csv('%s/test.csv' % data_dir)
 
-    train_df, dev_df = split_df_by_pt(train_val_df, frac=0.1)
+    train_df, dev_df = split_df_by_pt(train_val_df, frac=0.05)
 
     if not args.eval_model:
         train_dataset = DrgTextDataset(args, train_df, RULE_PATH)
@@ -82,4 +82,5 @@ if __name__ == '__main__':
 
     if args.save_model:
         dump_outputs(result_dir, text_infs, checkpoint=model_wts, hyperparam=vars(args))
+        print('Saved to', result_dir)
 
