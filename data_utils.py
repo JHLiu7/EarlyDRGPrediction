@@ -12,7 +12,7 @@ class DrgTextDataset(Dataset):
         self.df = df
         self.max_seq_length = args.max_seq_length
         self.data_dir = '%s/%s' % (args.data_dir, args.cohort)
-        self.text_dir = '%s/text_processed' % self.data_dir
+        self.text_dir = '%s/text_embed' % self.data_dir
         self.token2id_dir = '%s/token2id.dict' % self.data_dir
         self.token2id = pd.read_pickle(self.token2id_dir)
 
@@ -69,7 +69,7 @@ class DrgTextDataset(Dataset):
         for time in text_dict:
             if time <= hour:
                 text = text_dict[time]
-                tmp.extend([self.token2id[w] if w in self.token2id else self.token2id['<unk>'] for w in text])
+                tmp.extend(text)
         tokens = np.array(tmp)
 
         X_text = np.zeros(self.max_seq_length)
