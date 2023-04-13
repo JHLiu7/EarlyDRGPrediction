@@ -22,7 +22,7 @@ Other versions may work as well. A full list of packages is in requirement.txt. 
 
 ## Prepare data
 
-To create the DRG cohort for the experiments, run below. This will create cohorts for both MS-DRG and APR-DRG. 
+To create the DRG cohort for the experiments, run below. This will create cohorts for both MS-DRG and APR-DRG. To ensure the consistency of dataset splits, we provided stay ids for the test set that we evaluated in the paper for each cohort. 
 
 ```shell
 # create cohort -- will print the cohort statistics during processing
@@ -41,7 +41,7 @@ python preprocessing.py --data_dir $DATA_PATH --pretrained_embed_dir $EMBED_PATH
 
 ## Training and Evaluation
 
-The current experiment uses [CAML](https://github.com/jamesmullenbach/caml-mimic), an attention-based CNN model, to predict early DRG. This would require GPU resource for computation, a device can be specified in the command line. The following code can be run to load the model checkpoint provided in `checkpoints/$cohort` to evaluate on the test set. We provided two checkpoints for each cohort.
+The current experiment uses [CAML](https://github.com/jamesmullenbach/caml-mimic), an attention-based CNN model, to predict early DRG. This would require GPU resource for computation, a device can be specified in the command line. The following code can be run to load the model checkpoint provided in `checkpoints/$cohort` to evaluate on the test set. We provided one model checkpoint for each cohort.
 
 ```shell
 # evaluate on the MS-DRG cohort
